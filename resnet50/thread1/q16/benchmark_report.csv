@@ -1,0 +1,31 @@
+Command line parameters
+-m;./model/resnet-50-tf/FP16/resnet-50-tf.xml
+-b;1
+-t;2
+-hint;latency
+-report_type;detailed_counters
+-report_folder;./resnet50/thread1/q16/
+
+Configuration setup
+topology;Model1
+target device;CPU
+API;sync
+inference_only;True
+precision;UNSPECIFIED
+batch size;1
+number of iterations;None
+number of parallel infer requests;1
+duration (ms);2000
+
+Execution results
+read model time (ms);32.31
+compile model time (ms);191.27
+first inference time (ms);12.13
+total execution time (ms);2006.44
+total number of iterations;225
+latency (ms);8.78
+avg latency;8.90
+min latency;8.53
+max latency;27.16
+throughput;112.14
+

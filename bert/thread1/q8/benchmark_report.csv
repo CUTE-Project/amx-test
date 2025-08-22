@@ -1,0 +1,31 @@
+Command line parameters
+-m;./model/bert-base-ner/FP32-INT8/bert-base-ner.xml
+-b;1
+-t;2
+-hint;latency
+-report_type;detailed_counters
+-report_folder;./bert/thread1/q8/
+
+Configuration setup
+topology;Model1
+target device;CPU
+API;sync
+inference_only;True
+precision;UNSPECIFIED
+batch size;1
+number of iterations;None
+number of parallel infer requests;1
+duration (ms);2000
+
+Execution results
+read model time (ms);62.62
+compile model time (ms);1103.41
+first inference time (ms);30.81
+total execution time (ms);2012.37
+total number of iterations;87
+latency (ms);22.97
+avg latency;23.10
+min latency;22.72
+max latency;25.71
+throughput;43.23
+
