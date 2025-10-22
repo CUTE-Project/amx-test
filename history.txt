@@ -1,0 +1,1448 @@
+    1  exit
+    2  lscpu
+    3  cd tmp
+    4  ls
+    5  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k\necho 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+    6  ls
+    7  cd ..
+    8  ls
+    9  vim ~/.bashrc
+   10  vim ~/.zshrc
+   11  exit
+   12  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k\necho 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+   13  exit
+   14  ls
+   15  cd perftool
+   16  ls
+   17  ip a
+   18  exit
+   19  htop
+   20  ls
+   21  source openvino_env/bin/activate
+   22  ls
+   23  pip
+   24  exit
+   25  sudo -E apt install pip
+   26  source openvino_env/bin/activate
+   27  python3 -m venv openvino_env
+   28  sudo apt install python3.12-venv
+   29  sudo apt update
+   30  sudo -E apt update
+   31  echo $http_proxy 
+   32  sudo -E apt update
+   33  sudo -E apt install python3.12-venv
+   34  source openvino_env/bin/activate
+   35  exit
+   36  python3 -m venv openvino_env
+   37  source openvino_env/bin/activate
+   38  benchmark_app -m
+   39  python -m pip install --upgrade pip
+   40  python -m pip install openvino==2024.5.0  -i https://pypi.tuna.tsinghua.edu.cn/simple Django
+   41  benchmark_app -m
+   42  benchmark_app -h
+   43  benchmark_app -m public/alexnet/FP16-INT8/alexnet.xml
+   44  benchmark_app -m public/alexnet/FP16-INT8/alexnet.xml -t 1
+   45  lscpu
+   46  benchmark_app -m public/alexnet/FP16-INT8/alexnet.xml -t 1
+   47  ONEDNN_VERBOSE=1 benchmark_app -m public/alexnet/FP16-INT8/alexnet.xml -t 1
+   48  ONEDNN_VERBOSE=1 benchmark_app -m public/alexnet/FP16-INT8/alexnet.xml -niter 1
+   49  benchmark_app
+   50  benchmark_app -h
+   51  ls
+   52  code VecExttest.py
+   53  benchmark_app -m ./public/alexnet/FP16-INT8/alexnet.xml -b 1 -t 1 -api sync -hint none -nstreams 1 -nthreads 1
+   54  benchmark_app -m ./public/alexnet/FP16/alexnet.xml -b 1 -t 1 -api sync -hint none -nstreams 1 -nthreads 1
+   55  benchmark_app -m ./public/alexnet/FP32/alexnet.xml -b 1 -t 1 -api sync -hint none -nstreams 1 -nthreads 1
+   56  benchmark_app -m ./public/alexnet/FP16/alexnet.xml -b 1 -t 1 -api sync -hint none -nstreams 1 -nthreads 1
+   57  benchmark_app -m ./public/alexnet/FP32-INT8/alexnet.xml -b 1 -t 1 -api sync -hint none -nstreams 1 -nthreads 1
+   58  ls
+   59  python VecExttest.py
+   60  htop
+   61  python VecExttest.py
+   62  benchmark_app --help
+   63  ls
+   64  python VecExttest.py
+   65  lscpu
+   66  pwd
+   67  ip a
+   68  hist
+   69  history
+   70  ls
+   71  exit
+   72  ls
+   73  cd oneDNN
+   74  ls
+   75  git pull
+   76  source ~/.zshrc
+   77  git pull
+   78  ls
+   79  cd ..
+   80  ls
+   81  cd ..
+   82  cd  tmp
+   83  ls
+   84  wget google.com
+   85  cd ../
+   86  ls
+   87  cd perftool
+   88  ls
+   89  cd oneDNN
+   90  ls
+   91  git checkout master
+   92  git log
+   93  git pull
+   94  git check v2.3.2
+   95  git checkout v2.3.2
+   96  cd ..
+   97  ls
+   98  mv oneDNN oneDNN_2.3.2
+   99  ls
+  100  git clone https://github.com/oneapi-src/oneDNN.git
+  101  ls
+  102  cd  oneDNN
+  103  ls
+  104  git checkout v3.6.1
+  105  ls
+  106  mkdir -p build\ncd build
+  107  cmake ..
+  108  ls
+  109  cd oneDNN
+  110  ls
+  111  cd build
+  112  cmake ..
+  113  sudo -E apt install cmake
+  114  cmake ..
+  115  lscpu
+  116  make -j 240
+  117  ls
+  118  cd tests/benchdnn
+  119  ls
+  120  ./benchdnn
+  121  ./benchdnn --help
+  122  taskset -c 0    ./benchdnn --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 1024x1024:1024x1024
+  123  ONEDNN_VERBOSE=1 taskset -c 0    ./benchdnn --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 1024x1024:1024x1024
+  124  htop --tree --sort-key PERCENT_CPU
+  125  cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_available_frequencies
+  126  cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_frequencies
+  127  cat /sys/devices/system/cpu/cpu0/cpufreq
+  128  cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_max_freq
+  129  cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_cur_freq\n
+  130  cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq\n
+  131  cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_min_freq\ncat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_max_freq\n
+  132  echo 4000000 | sudo tee /sys/devices/system/cpu/cpu0/cpufreq/scaling_setspeed
+  133  sudo echo 4000000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_setspeed
+  134  sudo su
+  135  ONEDNN_VERBOSE=1 taskset -c 0    ./benchdnn --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 1024x1024:1024x1024
+  136  ONEDNN_VERBOSE=1 taskset -c 0    ./benchdnn --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 4096x4096:4096x4096
+  137  ONEDNN_VERBOSE=1 taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 4096x4096:4096x4096
+  138  taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 4096x4096:4096x4096
+  139  taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:u8 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 4096x4096:4096x4096
+  140  ONEDNN_VERBOSE=1 taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:u8 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 4096x4096:4096x4096
+  141  cd ..
+  142  ls
+  143  cd tmp
+  144  ls
+  145  touch bandtest.c
+  146  code bandtest.c
+  147  ls
+  148  gcc
+  149  gcc bendtest.c
+  150  ls
+  151  gcc bandtest.c
+  152  ONEDNN_VERBOSE=1 taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 4096x4096:4096x4096
+  153  cd oneDNN/build/tests/benchdnn
+  154  ls
+  155  ONEDNN_VERBOSE=1 taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 4096x4096:4096x4096
+  156  taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 4096x4096:4096x4096
+  157  history
+  158  sudo su
+  159  taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 4096x4096:4096x4096
+  160  taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  161  taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 128x128:128x128
+  162  taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 4096x4096:4096x4096
+  163  taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:u8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 4096x4096:4096x4096
+  164  ONEDNN_VERBOSE=1 taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:u8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 4096x4096:4096x4096
+  165  ONEDNN_VERBOSE=1 taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 4096x4096:4096x4096
+  166  taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 4096x4096:4096x4096
+  167  taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  168  taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 128x128:128x128
+  169  taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  170  sudo su
+  171  taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  172  taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 256x256:256x256
+  173  ONEDNN_VERBOSE=1 taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  174  ONEDNN_VERBOSE=1 taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 1024x1024:1024x1024
+  175  ONEDNN_VERBOSE=1 taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 256x256:256x256
+  176  taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 256x256:256x256
+  177  taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 1024x1024:1024x1024
+  178  taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  179  apt install perf
+  180  sudo -E apt install perf
+  181  perf
+  182  perf list
+  183  perf -e l2_request.miss l2_request.all  taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  184  perf stat -e l2_request.miss l2_request.all   taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  185  perf stat -e l2_request.miss,l2_request.all   taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  186  sudo su
+  187  perf stat -e l2_request.miss,l2_request.all   taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  188  perf stat -e l2_request.miss,l2_request.all   taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 4096x4096:4096x4096
+  189  perf list
+  190  perf stat -e l2_request.miss,l2_request.all,l2_lines_out.useless_hwpf   taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 4096x4096:4096x4096
+  191  perf list
+  192  perf stat -e l2_request.miss,l2_request.all,l2_lines_out.useless_hwpf,l2_rqsts.prefetch_hit   taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 4096x4096:4096x4096
+  193  man perf
+  194  man  perf-buildid-cache
+  195  man perf
+  196  man perf_event_open
+  197  perf stat -e l2_request.miss,l2_request.all   taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 4096x4096:4096x4096
+  198  perf stat -e l2_request.miss,l2_request.all   taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  199  taskset -c 0    ./benchdnn --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512 -v99
+  200  ls
+  201  taskset -c 0    ./benchdnn --verbose=99  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  202  ls
+  203  amplxe-cl
+  204  wget https://apt.repos.intel.com/intel-gpg-keys/GPG-PUB-KEY-INTEL-SW-PRODUCTS.PUB
+  205  sudo apt-key add GPG-PUB-KEY-INTEL-SW-PRODUCTS.PUB
+  206  echo "deb https://apt.repos.intel.com/oneapi all main" | sudo tee /etc/apt/sources.list.d/oneAPI.list
+  207  sudo apt update
+  208  sudo -E  apt update
+  209  sudo apt install intel-oneapi-vtune
+  210  sudo -E apt install intel-oneapi-vtune
+  211  vim /etc/sudo.conf
+  212  sudo visudo\n
+  213  vtune
+  214  sudo su zkyd
+  215  sudo usermod -aG vtune perftest
+  216  amplxe-cl -collect hotspots -q -no-summary -knob sampling-mode=hw -r dnnl-vtune taskset -c 0    ./benchdnn --verbose=99  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  217  exit
+  218  vunte
+  219  amplxe-cl -collect hotspots -q -no-summary -knob sampling-mode=hw -r dnnl-vtune ./benchdnn
+  220  /opt/intel/oneapi/vtune/2025.0/bin64/vtune
+  221  code  /opt/intel/oneapi/vtune/2025.0/sep_vars.sh 
+  222  source  /opt/intel/oneapi/vtune/2025.0/sep_vars.sh 
+  223  /opt/intel/oneapi/vtune/2025.0/sep_vars.sh 
+  224  /opt/intel/oneapi/vtune/2025.0/bin64/vtune --help
+  225  vtune-backend
+  226  /opt/intel/oneapi/vtune/2025.0/bin64/vtune-backend
+  227  /opt/intel/oneapi/vtune/2025.0/bin64/vtune-backend --data-directory=.
+  228  /opt/intel/oneapi/vtune/2025.0/bin64/vtune-backend --help
+  229  /opt/intel/oneapi/vtune/2025.0/bin64/vtune-backend --allow-remote-access  --data-directory=.
+  230  cd oneDNN/build/tests/
+  231  cd benchdnn
+  232  ls
+  233  realpath benchdnn
+  234  lscpu
+  235  htop
+  236  hist
+  237  history
+  238  ls
+  239  mkdir vtune
+  240  cd vtune
+  241  ls
+  242  /opt/intel/oneapi/vtune/2025.0/bin64/vtune-backend
+  243  /opt/intel/oneapi/vtune/2025.0/bin64/vtune-backend --help
+  244  /opt/intel/oneapi/vtune/2025.0/bin64/vtune-backend --allow-remote-access  --data-directory=/home/perftest/perftool/vtune --enable-server-profiling
+  245  /home/perftool/oneDNN/build/tests/benchdnn/benchdnn --verbose=99  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  246  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn --verbose=99  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  247  /opt/intel/oneapi/
+  248  ls
+  249  source setvars.sh
+  250  cd common/2025.0/
+  251  ls
+  252  cd ..
+  253  ls
+  254  cd licensing
+  255  ls
+  256  cd 2025.0/licensing/2025.0
+  257  ls
+  258  cd
+  259  ls
+  260  cd /opt/intel/oneapi/vtune/2025.0/socwatch/x64/
+  261  ls
+  262  ./socwatch --help
+  263  sudo su
+  264  source  /opt/intel/oneapi/vtune/2025.0/sep_vars.sh 
+  265  source  /opt/intel/oneapi/setvars.sh
+  266  export PATH=/opt/intel/oneapi/vtune/2025.0/socwatch/x64/
+  267  exit
+  268  source  /opt/intel/oneapi/setvars.sh
+  269  export PATH=/opt/intel/oneapi/vtune/2025.0/socwatch/x64:$PATH
+  270  /opt/intel/oneapi/vtune/2025.0/bin64/vtune-backend --allow-remote-access  --data-directory=/home/perftest/perftool/vtune --enable-server-profiling
+  271  ./insmod-sep -q
+  272  cd /opt/intel/oneapi/vtune/2025.0/sepdk/src
+  273  ./insmod-sep -q
+  274  cd /opt/intel/oneapi/vtune/2025.0/sepdk/src
+  275  ./insmod-sep -q
+  276  cd /opt/intel/oneapi/vtune/2025.0/socwatch/x64/
+  277  ./insmod-sep -q
+  278  cd ../../sepdk/src
+  279  ./insmod-sep -q
+  280  /opt/intel/oneapi/vtune/2025.0/bin64/vtune-backend --allow-remote-access  --data-directory=/home/perftest/perftool/vtune --enable-server-profiling
+  281  /opt/intel/oneapi/vtune/2025.0/bin64/vtune-backend --allow-remote-access  --data-directory=/home/perftest/perftool/vtune --enable-server-profiling --reset-passphrase
+  282  sudo su
+  283  turbostat 
+  284  sudo turbostat 
+  285  sudo turbostat --help
+  286  sudo turbostat 
+  287  sudo turbostat -c 0
+  288  ls
+  289  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn --verbose=99  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  290  taskset -c 0    ./benchdnn  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  291  taskset -c 0   /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  292  taskset -c 0   /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 1024x1024:1024x1024
+  293  taskset -c 0   /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  294  taskset -c 0   /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x1024:1024x512
+  295  taskset -c 0   /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 128x512:512x128
+  296  taskset -c 0   /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  297  sudo turbostat -c 1
+  298  sudo turbostat --help
+  299  sudo turbostat -c 0
+  300  sudo turbostat -h
+  301  man turbostat
+  302  sudo turbostat --show CPU,frequency
+  303  sudo turbostat --show CPU,frequency -c 0
+  304  man turbostat
+  305  sudo turbostat --quiet --show CPU,frequency
+  306  sudo turbostat --quiet --show CPU,frequency -c 0
+  307  sudo turbostat  --show CPU,frequency -c 0
+  308  taskset -c 0   /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  309  man turbostat
+  310  sudo turbostat  --interval -c 0
+  311  sudo turbostat  --interval 0.001 -c 0
+  312  sudo turbostat  --interval 0.1 -c 0
+  313  sudo turbostat  --interval 0.001 -c 0
+  314  sudo turbostat  --interval 0.1 -c 0
+  315  taskset -c 0   /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  316  sudo turbostat  --interval 0.1 -c 0
+  317  taskset -c 0   /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  318  taskset -c 16   /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  319  sudo turbostat  --interval 0.1 -c 16
+  320  taskset -c 16   /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  321  taskset -c 0   /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  322  sudo turbostat  --interval 0.1 -c 0
+  323  taskset -c 0   /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  324  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 16384x16384:16384x16384
+  325  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 16384x163840:163840x16384
+  326  sudo turbostat  --interval 0.1
+  327  sudo turbostat  --help
+  328  sudo turbostat  -S
+  329  sudo turbostat  --interval 0.1 -S
+  330  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 16384x163840:163840x16384
+  331  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 163840x163840:163840x163840
+  332  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 65536x65536:65536x65536
+  333  sudo turbostat  --interval 0.1 -S
+  334  sudo turbostat  --interval 0.1 -c 0
+  335  sudo turbostat  --interval 0.5 -c 0
+  336  taskset -c 0   /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  337  taskset -c 0   /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 4096x4096:4096x4096
+  338  history
+  339  history | grep 'sudo'
+  340  sudo su zkyd
+  341  exit
+  342  ls
+  343  cat ~/.zsh
+  344  cat ~/.zshrc
+  345  ls
+  346  s
+  347  ls
+  348  cd perftool
+  349  ls
+  350  cd ..
+  351  exit
+  352  ls
+  353  cd intel
+  354  ls
+  355  cd ..
+  356  ls
+  357  cd perftool
+  358  ls
+  359  cd
+  360  ls
+  361  history
+  362  sudo su
+  363  ls
+  364  history
+  365  taskset -c 0   /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmu --dt=u8:s8:s32--wtag=any 
+  366  taskset -c 0   /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmu --dt=u8:s8:s32 --wtag=any 
+  367  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmu --dt=u8:s8:s32 --wtag=any 
+  368  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmu --dt=u8:s8:s32 --wtag=any 512x512:512x512
+  369  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmu --dt=u8:s8:s32 --wtag=any --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+  370  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  512x512:512x512
+  371  taskset -c 0 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  512x512:512x512
+  372  sudo turbostat  --interval 0.5 -c 0
+  373  taskset -c 0 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  512x512:512x512
+  374  sudo -E apt install cpufrequtils
+  375  cpufreq-info
+  376  cpufreq-info -c 0
+  377  sudo cpufreq-set -c 0 -g userspace\nsudo cpufreq-set -c 0 -f 2.0GHz
+  378  cpufreq-info -c 0
+  379  taskset -c 0 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  512x512:512x512
+  380  sudo cpufreq-set -c 0 -f 3.0GHz
+  381  taskset -c 0 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  512x512:512x512
+  382  taskset -c 0 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  512x4096:4096:512
+  383  taskset -c 0 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  512x4096:4096x512
+  384  taskset -c 0 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv  --mb=4 --dir=FWD --dt=f32,u8:s8:u8 \\n               ic256ih64iw64_oc256oh64ow64_kh3kw3
+  385  taskset -c 0 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv  --mb=4 --dir=FWD --dt=f32,u8:s8:u8  ic256ih64iw64_oc256oh64ow64_kh3kw3
+  386  taskset -c 0 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv  --mb=4 --dir=FWD --dt=f32,u8:s8:u8  ic256ih64iw64_oc256oh64ow64_kh3kw3_sh1sw1ph0pw0_n
+  387  taskset -c 0 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv  --mb=4 --dir=FWD --dt=f32,u8:s8:u8  ic256ih64iw64_oc256oh64ow64_kh3kw3_sh1sw1ph0pw0
+  388  taskset -c 0 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv  --mb=4 --dir=FWD_B --dt=f32,u8:s8:u8  ic256ih64iw64_oc256oh64ow64_kh3kw3_sh1sw1ph0pw0
+  389  sudo turbostat  --interval 0.5 -c 0
+  390  taskset -c 0 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv  --mb=4 --dir=FWD_B --dt,u8:s8:u8  ic256ih64iw64_oc256oh64ow64_kh3kw3_sh1sw1ph0pw0
+  391  taskset -c 0 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv  --mb=4 --dir=FWD_B --dt=u8:s8:u8  ic256ih64iw64_oc256oh64ow64_kh3kw3_sh1sw1ph0pw0
+  392  taskset -c 0 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv  --mb=4 --dir=FWD_B --dt=u8:s8:s32  ic256ih64iw64_oc256oh64ow64_kh3kw3_sh1sw1ph0pw0
+  393  taskset -c 0 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv  --mb=4 --dir=FWD_B --dt=u8:s8:s32  ic512ih256iw256_oc256oh256ow256_kh3kw3_sh1sw1ph0pw0
+  394  taskset -c 0 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv --mode=p  --mb=4 --dir=FWD_B --dt=u8:s8:s32  ic512ih256iw256_oc256oh256ow256_kh3kw3_sh1sw1ph0pw0
+  395  taskset -c 0 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv --mode=p  --mb=4 --dir=FWD_B --dt=u8:s8:s32  ic512ih128iw128_oc256oh128ow128_kh3kw3_sh1sw1ph0pw0
+  396  taskset -c 0 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv --mode=p  --mb=4 --dir=FWD_B --dt=u8:s8:s32  ic512ih128iw128_oc512oh128ow128_kh3kw3_sh1sw1ph0pw0
+  397  taskset -c 0 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv --mode=p  --mb=4 --dir=FWD_B --dt=u8:s8:s32  ic512ih128iw128_oc512oh128ow128_kh7kw7_sh1sw1ph0pw0
+  398  taskset -c 0 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv --mode=p  --mb=4 --dir=FWD_B --dt=u8:s8:s32  ic512ih128iw128_oc512oh128ow128_kh5kw5_sh1sw1ph0pw0
+  399  taskset -c 0 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv --mode=p  --mb=4 --dir=FWD_B --dt=u8:s8:s32  ic1024ih128iw128_oc1024oh128ow128_kh3kw3_sh1sw1ph0pw0
+  400  taskset -c 0 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv --mode=p  --mb=4 --dir=FWD_B --dt=u8:s8:s32  ic1024ih128iw128_oc1024oh128ow128_kh5kw5_sh1sw1ph0pw0
+  401  taskset -c 0 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv --mode=p  --mb=4 --dir=FWD_B --dt=u8:s8:s32  ic1024ih128iw128_oc512oh128ow128_kh3kw3_sh1sw1ph0pw0
+  402  taskset -c 0 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv --mode=p  --mb=4 --dir=FWD_B --dt=u8:s8:s32  ic512ih256iw256_oc512oh128ow128_kh3kw3_sh1sw1ph0pw0
+  403  taskset -c 0 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv --mode=p  --mb=4 --dir=FWD_B --dt=u8:s8:s32  ic512ih256iw256_oc512oh256ow256_kh3kw3_sh1sw1ph0pw0
+  404  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv --mode=p  --mb=4 --dir=FWD_B --dt=u8:s8:s32  ic512ih256iw256_oc512oh256ow256_kh3kw3_sh1sw1ph0pw0
+  405  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv --mode=p  --mb=4 --dir=FWD_B --dt=u8:s8:s32  ic512ih256iw256_oc1024oh256ow256_kh3kw3_sh1sw1ph0pw0
+  406  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv --mode=p  --mb=4 --dir=FWD_B --dt=u8:s8:s32  ic512ih256iw256_oc1024oh256ow256_kh7kw7_sh1sw1ph0pw0
+  407  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv --mode=p  --mb=4 --dir=FWD_B --dt=u8:s8:s32  ic256ih256iw256_oc1024oh256ow256_kh3kw3_sh1sw1ph0pw0
+  408  sudo su
+  409  ls
+  410  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv --mode=p  --mb=4 --dir=FWD_B --dt=u8:s8:s32  ic512ih256iw256_oc1024oh256ow256_kh7kw7_sh1sw1ph0pw0
+  411  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv --mode=p  --mb=4 --dir=FWD_B --dt=u8:s8:s32  ic256ih256iw256_oc1024oh256ow256_kh3kw3_sh1sw1ph0pw0
+  412  perf list
+  413  perf list | grep 'power'
+  414  sudo perf list | grep 'power'
+  415  perf -e power/energy-pkg/ /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv --mode=p  --mb=4 --dir=FWD_B --dt=u8:s8:s32  ic256ih256iw256_oc1024oh256ow256_kh3kw3_sh1sw1ph0pw0
+  416  perf stat -e power/energy-pkg/ /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv --mode=p  --mb=4 --dir=FWD_B --dt=u8:s8:s32  ic256ih256iw256_oc1024oh256ow256_kh3kw3_sh1sw1ph0pw0
+  417  taskset -c 0 perf stat -e power/energy-pkg/ /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv --mode=p  --mb=4 --dir=FWD_B --dt=u8:s8:s32  ic256ih256iw256_oc1024oh256ow256_kh3kw3_sh1sw1ph0pw0
+  418  ls
+  419  turbostat
+  420  sudo turbostat  --interval 0.1 -c 0,1
+  421  lscpu
+  422  sudo turbostat  --interval 0.1 -c 0,30
+  423  sudo turbostat  --interval 0.1 -c 0,60
+  424  ls
+  425  history
+  426  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv --mode=p  --mb=4 --dir=FWD_B --dt=u8:s8:s32  ic16386ih1024iw1024_oc16384oho1024ow1024_kh3kw3_sh1sw1ph0pw0
+  427  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv --mode=p  --mb=4 --dir=FWD_B --dt=u8:s8:s32  ic16386ih1024iw1024_oc16384oh1024ow1024_kh3kw3_sh1sw1ph0pw0
+  428  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --conv --mode=p  --dir=FWD_B --dt=u8:s8:s32  ic16386ih1024iw1024_oc16384oh1024ow1024_kh3kw3_sh1sw1ph0pw0
+  429  history
+  430  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  16384x16384:16384:16384
+  431  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  16384x16384:16384x16384
+  432  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  163840x163840:163840x163840
+  433  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  16384x16384:16384x16384
+  434  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  65536x65536:65536x65536
+  435  lscpu
+  436  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=bf16:bf16:fp32 --wtag=any  1024x1024:1024x1024
+  437  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=bf16:bf16:f32 --wtag=any  1024x1024:1024x1024
+  438  htop
+  439  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=bf16:bf16:f32 --wtag=any  1024x1024:1024x1024
+  440  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=bf16:bf16:f32 --wtag=any  4096x1024:1024x4096
+  441  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=bf16:bf16:f32 --wtag=any  2048x1024:1024x2048
+  442  lscpui
+  443  lscpu
+  444  taskset -c 0-29 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=bf16:bf16:f32 --wtag=any  2048x1024:1024x2048
+  445  taskset -c 0-29,120-149 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=bf16:bf16:f32 --wtag=any  2048x1024:1024x2048
+  446  taskset -c 0-29,120-149 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=bf16:bf16:f32 --wtag=any  1048x1024:1024x1048
+  447  taskset -c 0-29,120-149 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=bf16:bf16:f32 --wtag=any  1024x1024:1024x1024
+  448  taskset -c 0-119 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=bf16:bf16:f32 --wtag=any  1024x1024:1024x1024
+  449  lscpu
+  450  taskset -c 0-119 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=bf16:bf16:f32 --wtag=any  1024x1024:1024x1024
+  451  taskset -c 0-119 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=bf16:bf16:f32 --wtag=any  65536x65536:65536x65536
+  452  taskset -c 0-119 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=bf16:bf16:f32 --wtag=any  4096x4096:4096x4096
+  453  taskset -c 0-64 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=bf16:bf16:f32 --wtag=any  4096x4096:4096x4096
+  454  taskset -c 0-15,30-45,60-75,90-105 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=bf16:bf16:f32 --wtag=any  4096x4096:4096x4096
+  455  taskset -c 0-119:2 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=bf16:bf16:f32 --wtag=any  4096x4096:4096x4096
+  456  taskset -c 0-119 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=bf16:bf16:f32 --wtag=any  3072x16384:16384x2560
+  457  taskset -c 0-119 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=bf16:bf16:f32 --wtag=any  3072x1024:1024x2560
+  458  taskset -c 0-119 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=bf16:bf16:f32 --wtag=any  3072x2048:2048x2560
+  459  taskset -c 0-119 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=bf16:bf16:f32 --wtag=any  3072x1024:1024x2560
+  460  taskset -c 0-119 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=bf16:bf16:f32 --wtag=any  3072x16384:16384x2560
+  461  ONEDNN_JIT_DUMP=1 taskset -c 0-119 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=bf16:bf16:f32 --wtag=any  3072x16384:16384x2560
+  462  ls
+  463  rm  *.bin
+  464  ls
+  465  mkdir onednn_dump
+  466  cd onednn_dump
+  467  ONEDNN_JIT_DUMP=1 taskset -c 0-119 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=bf16:bf16:f32 --wtag=any  3072x16384:16384x2560
+  468  ls
+  469  xed
+  470  cd ..
+  471  ls
+  472  tar x sde-external-9.48.0-2024-11-25-lin.tar.xz
+  473  tar -xvf sde-external-9.48.0-2024-11-25-lin.tar.xz
+  474  ls
+  475  cd dataset
+  476  cd ..
+  477  cd sde-external-9.48.0-2024-11-25-lin
+  478  ls
+  479  ./xed
+  480  ./xed64
+  481  ls
+  482  code README.txt
+  483  ls
+  484  cd ..
+  485  ls
+  486  vim ./.zshrc
+  487  source ./.zshrc
+  488  ls
+  489  cd onednn_dump
+  490  xed64 dnnl_dump_cpu_jit_brgemm_amx_uker_base_t.0.bin
+  491  xed -64 -ir dnnl_dump_cpu_jit_brgemm_amx_uker_base_t.0.bin
+  492  xed64 -64 -ir dnnl_dump_cpu_jit_brgemm_amx_uker_base_t.0.bin
+  493  ls
+  494  taskset -c 0-119 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=bf16:bf16:f32 --wtag=any  3072x16384:16384x2560
+  495  taskset -c 0-119 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:u8:s32 --wtag=any  3072x16384:16384x2560
+  496  taskset -c 0-119 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  3072x16384:16384x2560
+  497  taskset -c 0-119 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  3072x4096:4096x2560
+  498  /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  3072x4096:4096x2560
+  499  takset -c 0 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  3072x4096:4096x2560
+  500  taskset -c 0-119 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  3072x4096:4096x2560
+  501  taskset -c 0-119 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  3072x8192:8192x2560
+  502  taskset -c 0-119 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  3072x84096:4096x2560
+  503  taskset -c 0-119 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  3072x4096:4096x2560
+  504  taskset -c 0-32 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  3072x4096:4096x2560
+  505  taskset -c 0-119 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  3072x2048:2048x2560
+  506  taskset -c 0-59 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  3072x2048:2048x2560
+  507  taskset -c 0-59 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  3072x4096:4096x2560
+  508  taskset -c 0-59 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  3072x1024:1024x2560
+  509  taskset -c 0-119 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  3072x1024:1024x2560
+  510  taskset -c 0-119 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  3072x2048:2048x2560
+  511  taskset -c 0-119 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  3072x4096:4096x2560
+  512  taskset -c 0-59 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  3072x1024:1024x2560
+  513  taskset -c 0-59 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any --cold-cache=all  3072x1024:1024x2560
+  514  taskset -c 0-59 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any --cold-cache=wei  3072x1024:1024x2560
+  515  taskset -c 0-59 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  3072x1024:1024x2560
+  516  ONEDNN_VERBOSE=1 taskset -c 0-59 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  3072x1024:1024x2560
+  517  clear
+  518  ONEDNN_VERBOSE=1 taskset -c 0-59 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  3072x1024:1024x2560
+  519  ONEDNN_VERBOSE=1 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  3072x1024:1024x2560
+  520  clear
+  521  ONEDNN_VERBOSE=1 /home/perftest/perftool/oneDNN/build/tests/benchdnn/benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any  3072x1024:1024x2560
+  522  ls
+  523  cd ..
+  524  ls
+  525  lscpu
+  526  vim ~/.ssh/authorized_keys
+  527  lscpu
+  528  ls
+  529  lscpu
+  530  top
+  531  cd ..
+  532  ls
+  533  cd wangchongxi
+  534  ls
+  535  cd xiejianan
+  536  htop
+  537  ls
+  538  cd
+  539  ls
+  540  cd perftool
+  541  ls
+  542  cd ..
+  543  ls
+  544  cd intel
+  545  ls
+  546  cd ..
+  547  ls
+  548  sudo vim /etc/sudoers
+  549  gcc -O3 -march=native -mtune=native -fno-tree-vectorize test.c -o test
+  550  cd ..
+  551  gcc -O3 -march=native -mtune=native -fno-tree-vectorize test.c -o test
+  552  cd
+  553  ls
+  554  cd perftool
+  555  ls
+  556  gcc -O3 -march=native -mtune=native -fno-tree-vectorize ipc_test.c -o test
+  557  gcc -O3 -march=native -mtune=native -fno-tree-vectorize ipc_test.c -o ipc_test
+  558  ls
+  559  ./ipc_test
+  560  gcc -O3 -march=native -mtune=native -fno-tree-vectorize ipc_test.c -o ipc_test
+  561  ./ipc_test
+  562  gcc -O3 -march=native -mtune=native -fno-tree-vectorize ipc_test.c -o ipc_test
+  563  ./ipc_test
+  564  gcc -O3 -march=native -mtune=native -fno-tree-vectorize ipc_test.c -o ipc_test
+  565  ./ipc_test
+  566  gcc -O3 -march=native -mtune=native -fno-tree-vectorize ipc_test.c -o ipc_test
+  567  ./ipc_test
+  568  ls
+  569  sudo ./vdpbf16ps_test
+  570  ls
+  571  ./vdpbf16ps_test
+  572  sudo ./vdpbf16ps_test
+  573  /home/perftest/perftool/ipctest/vdpbf16ps_test
+  574  sudo /home/perftest/perftool/ipctest/vdpbf16ps_test
+  575  sudo
+  576  sudo ls
+  577  sudo /home/perftest/perftool/ipctest/vdpbf16ps_test
+  578  sudo bash /home/perftest/perftool/ipctest/vdpbf16ps_test
+  579  sudo  /home/perftest/perftool/ipctest/vdpbf16ps_test
+  580  sudo -E /home/perftest/perftool/ipctest/vdpbf16ps_test\n
+  581  sudo /home/perftest/perftool/ipctest/vdpbf16ps_test\n
+  582  ls
+  583  chmod +x vdpbf16ps_test
+  584  ls
+  585  sudo /home/perftest/perftool/ipctest/vdpbf16ps_test\n
+  586  chmod +x vfmadd231ph_test
+  587  chmod +x vfmadd231ps_test
+  588  sudo /home/perftest/perftool/ipctest/vdpbf16ps_test vfmadd231ph_test\n
+  589  sudo /home/perftest/perftool/ipctest/vdpbf16ps_test vfmadd231ps_test\n
+  590  sudo /home/perftest/perftool/ipctest/vfmadd231ph_test\n
+  591  sudo /home/perftest/perftool/ipctest/vfmadd231ps_test\n
+  592  taskset -c 0 sudo /home/perftest/perftool/ipctest/vfmadd231ps_test\n
+  593  taskset -c 0 sudo /home/perftest/perftool/ipctest/vfmadd231ph_test\n
+  594  gcc -march=native vfmadd231ph_test.c
+  595  ls
+  596  ./a.out
+  597  gcc -O3 -march=native vfmadd231ph_test.c
+  598  taskset -c 0 sudo /home/perftest/perftool/ipctest/vfmadd231ph_test\n
+  599  taskset -c 0 sudo /home/perftest/perftool/ipctest/a.out\n
+  600  gcc -O3 -march=native vfmadd231ph_test.c
+  601  taskset -c 0 sudo /home/perftest/perftool/ipctest/a.out\n
+  602  ls
+  603  exit
+  604  lscpu
+  605  cd ..
+  606  ls
+  607  cd perftest
+  608  ls
+  609  pwd
+  610  vim ~/.ssh/authorized_keys
+  611  ls
+  612  ip addr
+  613  lscpu
+  614  ls
+  615  cpuinfo
+  616  lscpu
+  617  cat /proc/cpuinfo
+  618  cat /proc/meminfo
+  619  cat /proc/meminfo -h
+  620  cat /proc/meminfo -g
+  621  free -h
+  622  df -h
+  623  free -h 
+  624  lscpu
+  625  df -h
+  626  ls
+  627  mkdir chipyard_test
+  628  cd chipyard_test
+  629  ls
+  630  sudo ls
+  631  htop
+  632  cd ..
+  633  ls
+  634  cd weiyijian
+  635  sudo su
+  636  exit
+  637  ls
+  638  /opt/intel/oneapi/vtune/2025.0/bin64/vtune-backend --allow-remote-access  --data-directory=/home/perftest/perftool/vtune --enable-server-profiling
+  639  /opt/intel/oneapi/vtune/2025.0/bin64/vtune-backend --allow-remote-access  --data-directory=/home/perftest/perftool/vtune --enable-server-profiling --reset-passphrase
+  640  history| grep '/proc/sys/kernel/perf_event_paranoid'
+  641  cat /proc/sys/kernel/perf_event_paranoid
+  642  sudo su
+  643  ls
+  644  history
+  645  ls
+  646  cd llama3.2
+  647  ls
+  648  cd ..
+  649  ls
+  650  cd intel
+  651  ls
+  652  exit
+  653  history
+  654  exit
+  655  ls
+  656  exit
+  657  ls
+  658  cd  perftool
+  659  ls
+  660  cd openvino
+  661  ls
+  662  cd ..
+  663  ls
+  664  cd openvino_env
+  665  ls
+  666  cd ..
+  667  ls
+  668  cd openvino
+  669  ls
+  670  cd ..
+  671  cd  openvino_env
+  672  ls
+  673  cd bin
+  674  ls
+  675  ./benchmark_app
+  676  cd ..
+  677  ls
+  678  code perftool
+  679  history
+  680  history > history.txt
+  681  ls
+  682  source openvino_env
+  683  benchmark_app
+  684  source openvino_env/bin/activate
+  685  benchmark_app -v
+  686  benchmark_app -h
+  687  benchmark_app -m ./public/alexnet/FP16-INT8/alexnet.xml -b 1 -t 1 -api sync -hint none -nstreams 1 -nthreads 1
+  688  benchmark_app -m ./public/alexnet/FP16-INT8/alexnet.xml -b 1 -t 1 -api sync -hint 
+  689  benchmark_app -h
+  690  benchmark_app -m ./public/alexnet/FP16-INT8/alexnet.xml -b 1 -t 1 -api sync -hint latency
+  691  benchmark_app -m ./public/alexnet/FP16-INT8/alexnet.xml -b 1 -t 1 -api sync -hint none -nstreams 1 -nthreads 1
+  692  benchmark_app -m ./public/alexnet/FP16-INT8/alexnet.xml -b 1 -t 1 -api sync -hint latency -nstreams 1 -nthreads 1
+  693  benchmark_app -m ./public/alexnet/FP16-INT8/alexnet.xml -b 1 -t 1 -api sync -nstreams 1 -nthreads 1
+  694  benchmark_app -m ./public/alexnet/FP16-INT8/alexnet.xml -b 1 -t 1 -api sync -hint none -nstreams 1 -nthreads 1
+  695  taskset -c 0 benchmark_app -m ./public/alexnet/FP16-INT8/alexnet.xml -b 1 -t 1 -api sync -hint latency
+  696  benchmark_app -m ./public/alexnet/FP16-INT8/alexnet.xml -b 1 -t 1 -api sync -hint none -nstreams 1 -nthreads 1
+  697  benchmark_app -m ./public/resnet-50-tf/FP32-INT8/resnet-50-tf.bin  -b 1 -t 1 -api sync -hint none -nstreams 1 -nthreads 1
+  698  benchmark_app -m ./public/resnet-50-tf/FP32-INT8/resnet-50-tf.xml  -b 1 -t 1 -api sync -hint none -nstreams 1 -nthreads 1
+  699  source openvino_env/bin/activate
+  700  benchmark_app -h
+  701  benchmark_app -m ./public/resnet-50-tf/FP32-INT8/resnet-50-tf.xml  -b 1 -t 1 -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters
+  702  benchmark_app -m ./public/resnet-50-tf/FP32-INT8/resnet-50-tf.xml  -b 1 -t 1 -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report
+  703  benchmark_app -m ./public/bert-base-ner/FP32-INT8/bert-base-ner.xml  -b 1 -t 1 -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/bert
+  704  ip
+  705  ip a
+  706  pwd
+  707  ls
+  708  cd openvino_env
+  709  cd ..
+  710  benchmark_app -v
+  711  benchmark_app --version
+  712  benchmark_app -h
+  713  cd openvino
+  714  cd ..
+  715  ls
+  716  python3 -m venv openvino_env_2025.2
+  717  ls
+  718  source openvino_env_2025.2/bin/activate
+  719  python -m pip install --upgrade pip
+  720  pip install openvino==2025.2.0
+  721  source openvino_env_2025.2/bin/activate
+  722  history
+  723  benchmark_app -m ../Llama-3.2-1B-Instruct-Q8_0.gguf -b 1 -t 1 -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/llama
+  724  python3 -m venv ov-llm-bench-env
+  725  source ov-llm-bench-env/bin/activate
+  726  pip install --upgrade pip
+  727  git clone  https://github.com/openvinotoolkit/openvino.genai.git
+  728  cd openvino.genai/tools/llm_bench
+  729  pip install -r requirements.txt  
+  730  ls
+  731  mkdir llama.model
+  732  mv ../Llama-3.2-1B-Instruct-Q8_0.gguf llama.model
+  733  optimum-cli
+  734  ls
+  735  cd ..
+  736  ls
+  737  cd ..
+  738  ls
+  739  cd llama.model
+  740  ls
+  741  mkdir openvino
+  742  cd openvino
+  743  ls
+  744  cd llama.model
+  745  ls
+  746  cd openvino
+  747  ls
+  748  mkdir Llama-3.2-1B-Instruct-Q8_0
+  749  optimum-cli export openvino --model /home/perftest/perftool/llama.model/Llama-3.2-1B-Instruct-Q8_0.gguf --weight-format int8 OUTPUT_DIR /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8_0
+  750  optimum-cli export openvino --model hugging-quants/Llama-3.2-1B-Instruct-Q8_0-GGUF  --weight-format int8 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8_0
+  751  ls
+  752  mv Llama-3.2-1B-Instruct-Q8_0 Llama-3.2-1B-Instruct-Q8
+  753  optimum-cli export openvino --model meta-llama/Llama-3.2-1B-Instruct  --weight-format int8 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8
+  754  optimum-cli export openvino --model hugging-quants/Llama-3.2-1B-Instruct-Q8_0-GGUF --library transformers --weight-format int8 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8_0
+  755  optimum-cli export openvino --model hugging-quants/Llama-3.2-1B-Instruct-Q8_0-GGUF  --weight-format int8 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8_0
+  756  cd test
+  757  ;s
+  758  ls
+  759  wget google.com
+  760  cat index.html
+  761  exit
+  762  optimum-cli export openvino --model /home/perftest/perftool/llama.model/Llama-3.2-1B-Instruct-Q8_0.gguf  --weight-format int8 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8_0
+  763  optimum-cli export openvino --model '/home/perftest/perftool/llama.model/Llama-3.2-1B-Instruct-Q8_0.gguf'  --weight-format int8 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8_0
+  764  ls
+  765  cp ../Llama-3.2-1B-Instruct-Q8_0.gguf ./
+  766  ls
+  767  optimum-cli export openvino --model './Llama-3.2-1B-Instruct-Q8_0.gguf'  --weight-format int8 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8_0
+  768  optimum-cli export openvino --model ./Llama-3.2-1B-Instruct-Q8_0.gguf  --weight-format int8 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8_0
+  769  optimum-cli export openvino --model ./Llama-3.2-1B-Instruct-Q8_0.gguf --task text-generation  --weight-format int8 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8_0
+  770  optimum-cli -h
+  771  optimum-cli --help
+  772  optimum-cli export  --help
+  773  optimum-cli export -h openvino
+  774  optimum-cli export openvino --model hugging-quants/Llama-3.2-1B-Instruct-Q8_0-GGUF --library transformers --weight-format int8 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8
+  775  optimum-cli export openvino --model hugging-quants/Llama-3.2-1B-Instruct-Q8_0-GGUF  --weight-format int8 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8
+  776  optimum-cli export openvino --model hugging-quants/Llama-3.2-1B-Instruct-Q8_0-GGUF --library transformers --weight-format int8 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8
+  777  optimum-cli export openvino --model meta-llama/Llama-3.2-1B-Instruct --weight-format int8 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8
+  778  hf
+  779  hf auth login
+  780  optimum-cli export openvino --model meta-llama/Llama-3.2-1B-Instruct --weight-format int8 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8
+  781  optimum-cli export openvino --model hugging-quants/Llama-3.2-1B-Instruct-Q8_0-GGUF --weight-format int8 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8
+  782  optimum-cli export openvino --model hugging-quants/Llama-3.2-1B-Instruct-Q8_0-GGUF --library transformers  --weight-format int8 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8
+  783  optimum-cli export openvino --model meta-llama/Llama-3.2-1B-Instruct --weight-format int8 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8
+  784  hf auth login
+  785  optimum-cli export openvino --model meta-llama/Llama-3.2-1B-Instruct --weight-format int8 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8
+  786  echo $https_proxy
+  787  optimum-cli export openvino --model meta-llama/Llama-3.2-1B-Instruct --weight-format int8 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8
+  788  hf auth login
+  789  optimum-cli export openvino --model meta-llama/Llama-3.2-1B-Instruct --weight-format int8 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8
+  790  export HF_ENDPOINT=https://hf-mirror.com
+  791  optimum-cli export openvino --model meta-llama/Llama-3.2-1B-Instruct --weight-format int8 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8
+  792  curl https://hf-mirror.com
+  793  curl https://hf-mirror.com/status
+  794  rm -rf ~/.cache/huggingface/
+  795  optimum-cli export openvino --model meta-llama/Llama-3.2-1B-Instruct --weight-format int8 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8
+  796  hf auth login
+  797  optimum-cli export openvino --model meta-llama/Llama-3.2-1B-Instruct --weight-format int8 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8
+  798  ls
+  799  cd Llama-3.2-1B-Instruct-Q8
+  800  ls
+  801  cd ..
+  802  ls
+  803  mkdir Llama-3.2-1B-Instruct-Q16
+  804  optimum-cli export openvino --model meta-llama/Llama-3.2-1B-Instruct --weight-format fp16 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q16 
+  805  ls
+  806  cd Llama-3.2-1B-Instruct-Q16
+  807  ls
+  808  cd ..
+  809  ls
+  810  cd ..
+  811  ls
+  812  cd ..
+  813  ls
+  814  cd ov-llm-bench-env
+  815  ls
+  816  cd bin
+  817  ls
+  818  cd ..
+  819  ls
+  820  cd ../openvino.genai/tools/llm_bench
+  821  ls
+  822  python benchmark.py -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8 -n 2
+  823  python benchmark.py -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8 -r /home/perftest/perftool/openvino_report/llama/
+  824  python benchmark.py -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8 -r /home/perftest/perftool/openvino_report/llama/r.csv
+  825  python benchmark.py -h
+  826  ls
+  827  cd ..
+  828  source ov-llm-bench-env/bin/activate
+  829  benchmark_app -m ../Llama-3.2-1B-Instruct-Q8_0.gguf -b 1 -t 1 -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/llama
+  830  benchmark_app -m /home/perftest/perftool/llama.model/Llama-3.2-1B-Instruct-Q8_0.gguf -b 1 -t 1 -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/llama
+  831  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml  -b 1 -t 1 -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/llama
+  832  benchmark_app -h
+  833  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml  -b 1 -t 1 -shape "[1,128],[1,128],[1,128],[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/llama
+  834  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml  -b 1 -t 1 -shape "[1,128]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/llama
+  835  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml  -b 1 -t 1 -shape "[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/llama
+  836  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml  -b 1 -t 1 -shape "[1],[1,128]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/llama
+  837  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml  -b 1 -t 1 -shape "input_ids[1,128]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/llama
+  838  benchmark_app -h
+  839  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml  -b 1 -t 1 -shape "input_ids[1,128]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/llama
+  840  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml  -b 1 -t 1 -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/llama
+  841  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml  -b 1 -t 1 -shape "input_ids[1,1024],attention_mask[1,1024],position_ids[1,1024],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/llama
+  842  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -iter 1  -shape "input_ids[1,1024],attention_mask[1,1024],position_ids[1,1024],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/llama
+  843  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -niter 1  -shape "input_ids[1,1024],attention_mask[1,1024],position_ids[1,1024],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/llama
+  844  ONEDNN_VERBOSE=1 benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -niter 1  -shape "input_ids[1,1024],attention_mask[1,1024],position_ids[1,1024],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/llama
+  845  ONEDNN_VERBOSE=1 benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -niter 1  -shape "input_ids[1,1024],attention_mask[1,1024],position_ids[1,1024],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/llama > report.txt
+  846  code report.txt
+  847  ONEDNN_VERBOSE=1 benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -niter 10  -shape "input_ids[1,1024],attention_mask[1,1024],position_ids[1,1024],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/llama > report.txt
+  848  ONEDNN_VERBOSE=1 benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -niter 100  -shape "input_ids[1,1024],attention_mask[1,1024],position_ids[1,1024],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/llama > report.txt
+  849  history
+  850  history > history.txt
+  851  code history.txt
+  852  benchmark_app -m ./public/bert-base-ner/FP32-INT8/bert-base-ner.xml  -b 1 -t 1 -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/bert
+  853  benchmark_app -m ./public/resnet-50-tf/FP32-INT8/resnet-50-tf.xml  -b 1 -t 1 -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/resnet50 
+  854  ip a
+  855  exit
+  856  ls
+  857  echo $http_proxy
+  858  ls
+  859  cd tmp
+  860  ls
+  861  wget google.com
+  862  cat index.html.2
+  863  l
+  864  ip a
+  865  exit
+  866  ls
+  867  source openvino_env_2025.2
+  868  source openvino_env_2025.2/bin/activate
+  869  ls
+  870  ln -s ../../llama.model ./llama.model
+  871  ls
+  872  benchmark_app -m resnet-50-tf/FP32-INT8/resnet-50-tf.xml  -b 1 -t 1 -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/test/
+  873  source ../../openvino_env_2025.2/bin/activate
+  874  benchmark_app -m resnet-50-tf/FP32-INT8/resnet-50-tf.xml  -b 1 -t 1 -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/test/
+  875  benchmark_app -m resnet-50-tf/FP32-INT8/resnet-50-tf.xml  -b 1 -t 1 -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder ../test
+  876  ls
+  877  python resnet50_name_change.py
+  878  python3 resnet50_name_change.py
+  879  source ~/perftool/openvino_env_2025.2/bin/activate
+  880  python3 resnet50_name_change.py
+  881  pip install ET
+  882  python3 resnet50_name_change.py
+  883  python resnet50_param.py
+  884  source ~/perftool/openvino_env_2025.2/bin/activate
+  885  python resnet50_param.py
+  886  benchmark_app -m resnet-50-tf/FP32-INT8/resnet-50-tf.xml  -b 1 -t 1 -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder ../test
+  887  benchmark_app -m resnet-50-tf/FP32-INT8/resnet-50-tf.xml  -b 1 -t 1 -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder ../resnet50/
+  888  source ~/perftool/openvino_env_2025.2/bin/activate
+  889  python resnet50_param.py
+  890  cd ..
+  891  ls
+  892  git clone https://github.com/jeffhammond/STREAM.git
+  893  cd STREAM
+  894  ls
+  895  gcc -O3 -fopenmp stream.c -o stream
+  896  ls
+  897  OMP_NUM_THREADS=1 ./stream
+  898  OMP_NUM_THREADS=4 ./stream
+  899  ./stream
+  900  ./stream -h
+  901  ./stream --help
+  902  ls
+  903  code .
+  904  ls
+  905  make
+  906  ls
+  907  ./stream
+  908  ./stream_c.exe
+  909  gcc -O3 -fopenmp -mcmodel=medium -DSTREAM_ARRAY_SIZE=120000000 -DNTIMES=20 stream.c -o stream
+  910  ./stream
+  911  OMP_NUM_THREADS=1 ./stream
+  912  OMP_NUM_THREADS=4 ./stream
+  913  OMP_NUM_THREADS=1 ./stream
+  914  code .
+  915  ls
+  916  cd Llama-3.2-1B-Instruct-Q
+  917  cd Llama-3.2-1B-Instruct-Q16
+  918  ll
+  919  cd ..
+  920  cd Llama-3.2-1B-Instruct-Q8
+  921  ll
+  922  cd ..
+  923  source ~/perftool/openvino_env_2025.2/bin/activate
+  924  ONEDNN_VERBOSE=1 benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -niter 1  -shape "input_ids[1,1024],attention_mask[1,1024],position_ids[1,1024],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder ./llama_q8
+  925  ONEDNN_VERBOSE=1 benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -niter 1  -shape "input_ids[1,1024],attention_mask[1,1024],position_ids[1,1024],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder ./llama/q8
+  926  ONEDNN_VERBOSE=1 benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q16/openvino_model.xml  -niter 1  -shape "input_ids[1,1024],attention_mask[1,1024],position_ids[1,1024],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder ./llama/bf16
+  927  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q16/openvino_model.xml  -niter 1  -shape "input_ids[1,1024],attention_mask[1,1024],position_ids[1,1024],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder ./llama/bf16
+  928  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q16/openvino_model.xml  -niter 1  -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder ./llama/bf16
+  929  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q16/openvino_model.xml  -niter 1  -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder ./llama/bf16
+  930  OV_CPU_DEBUG_LOG=1 benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q16/openvino_model.xml  -niter 1  -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder ./llama/bf16
+  931  optimum-cli export openvino --model meta-llama/Llama-3.2-1B-Instruct --weight-format bf16 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q16 
+  932  cd ..
+  933  source ov-llm-bench-env/bin/activate
+  934  optimum-cli export openvino --model meta-llama/Llama-3.2-1B-Instruct --weight-format bf16 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q16 
+  935  optimum-cli export openvino --model meta-llama/Llama-3.2-1B-Instruct --weight-format fp16 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q16 
+  936  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q16/openvino_model.xml  -niter 1  -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder /home/perftest/perftool/openvino_report/llama/bf16/
+  937  benchmark_app -h
+  938  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q16/openvino_model.xml  -niter 1  -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -infer_precision CPU:fp16 -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder /home/perftest/perftool/openvino_report/llama/bf16/
+  939  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q16/openvino_model.xml  -niter 1  -shape "input_ids[1,1024],attention_mask[1,1024],position_ids[1,1024],beam_idx[1]" -infer_precision CPU:fp16 -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder /home/perftest/perftool/openvino_report/llama/bf16/
+  940  lscpu
+  941  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q16/openvino_model.xml  -niter 1  -shape "input_ids[1,1024],attention_mask[1,1024],position_ids[1,1024],beam_idx[1]" -infer_precision CPU:bf16 -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder /home/perftest/perftool/openvino_report/llama/bf16/
+  942  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q16/openvino_model.xml  -niter 1  -shape "input_ids[1,1024],attention_mask[1,1024],position_ids[1,1024],beam_idx[1]" --input_precision fp16  -infer_precision CPU:bf16 -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder /home/perftest/perftool/openvino_report/llama/bf16/
+  943  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q16/openvino_model.xml  -niter 1  -shape "input_ids[1,1024],attention_mask[1,1024],position_ids[1,1024],beam_idx[1]" --input_precision f16  -infer_precision CPU:bf16 -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder /home/perftest/perftool/openvino_report/llama/bf16/
+  944  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q16/openvino_model.xml  -niter 1  -shape "input_ids[1,1024],attention_mask[1,1024],position_ids[1,1024],beam_idx[1]" -infer_precision CPU:fp16 -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder /home/perftest/perftool/openvino_report/llama/bf16/
+  945  optimum-cli export openvino --model meta-llama/Llama-3.2-1B-Instruct --weight-format bf16 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q16 
+  946  optimum-cli export openvino --model meta-llama/Llama-3.2-1B-Instruct --quant-mode int8  --weight-format int8 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8-all
+  947  optimum-cli export openvino --model meta-llama/Llama-3.2-1B-Instruct --quant-mode int8  /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8-all
+  948  optimum-cli export openvino --model meta-llama/Llama-3.2-1B-Instruct --quant-mode int8  --dataset wikitext /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8-all
+  949  optimum-cli export openvino --model meta-llama/Llama-3.2-1B-Instruct --quant-mode int8  --dataset c4 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8-all
+  950  optimum-cli export openvino --model meta-llama/Llama-3.2-1B-Instruct --quant-mode int8  --dataset wikitext2 /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8-all
+  951  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8-all/openvino_model.xml  -niter 1  -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder /home/perftest/perftool/openvino_report/llama/bf16
+  952  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml  -b 1 -t 1 -shape "input_ids[1,1024],attention_mask[1,1024],position_ids[1,1024],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/llama/q8/
+  953  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8-all/openvino_model.xml   -b 1 -t 1 -shape "input_ids[1,1024],attention_mask[1,1024],position_ids[1,1024],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/llama/bf16 
+  954  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8-all/openvino_model.xml   -b 1 -t 5 -shape "input_ids[1,1024],attention_mask[1,1024],position_ids[1,1024],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/llama/bf16 
+  955  lscpu
+  956  htop
+  957  ll
+  958  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml   -b 1 -t 5 -shape "input_ids[1,1024],attention_mask[1,1024],position_ids[1,1024],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/llama/q8
+  959  ONEDNN_VERBOSE=1 benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml   -b 1 -t 5 -shape "input_ids[1,1024],attention_mask[1,1024],position_ids[1,1024],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/llama/q8
+  960  ls
+  961  mkdir test
+  962  cd test
+  963  ls
+  964  rm -rf ./*
+  965  ls
+  966  ONEDNN_JIT_DUMP=1 benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml   -b 1 -t 5 -shape "input_ids[1,1024],attention_mask[1,1024],position_ids[1,1024],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder ../openvino_report/llama/q8
+  967  ONEDNN_VERBOSE=1 ONEDNN_JIT_DUMP=1 benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml   -b 1 -t 5 -shape "input_ids[1,1024],attention_mask[1,1024],position_ids[1,1024],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder ../openvino_report/llama/q8
+  968  ls
+  969  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml   -b 1 -t 5 -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder ../openvino_report/llama/q8
+  970  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml   -b 1 -t 5 -shape "input_ids[1,64],attention_mask[1,64],position_ids[1,64],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder ../openvino_report/llama/q8
+  971  ls
+  972  cd ..
+  973  ls
+  974  source ~/perftool/openvino_env_2025.2/bin/activate
+  975  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml   -b 1 -t 5 -shape "input_ids[1,64],attention_mask[1,64],position_ids[1,64],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder ../openvino_report/llama/q8
+  976  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml   -b 1 -t 5 -shape "input_ids[1,64],attention_mask[1,64],position_ids[1,64],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder /home/perftest/perftool/openvino_report/llama/q8
+  977  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml   -b 1 -t 5 -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder /home/perftest/perftool/openvino_report/llama/q8
+  978  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q16/openvino_model.xml   -b 1 -t 5 -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder /home/perftest/perftool/openvino_report/llama/bf16
+  979  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q16/openvino_model.xml   -b 1 -t 2 -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder /home/perftest/perftool/openvino_report/llama/bf16
+  980  benchmark_app -m /home/perftest/perftool/openvino_report/model/resnet-50-tf/FP16/resnet-50-tf.xml   -b 1 -t 2 -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder /home/perftest/perftool/openvino_report/resnet50/q16/
+  981  benchmark_app -m /home/perftest/perftool/openvino_report/model/resnet-50-tf/FP16/resnet-50-tf.xml   -b 1 -t 2  -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder /home/perftest/perftool/openvino_report/resnet50/q8/
+  982  benchmark_app -m /home/perftest/perftool/openvino_report/model/resnet-50-tf/FP16-INT8/resnet-50-tf.xml -b 1 -t 2  -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder /home/perftest/perftool/openvino_report/resnet50/q8/
+  983  ls
+  984  cd openvino_report
+  985  ls
+  986  ./testall.sh
+  987  chmod +x testall.sh
+  988  ./testall.sh
+  989  benchmark_app -m ./model/resnet-50-tf/FP16-INT8/resnet-50-tf.xml -b 1 -t 2  -api sync -hint none -nstreams 4 -nthreads 4 -report_type detailed_counters -report_folder ./resnet50/thread4/q8/
+  990  benchmark_app -m ./model/resnet-50-tf/FP16-INT8/resnet-50-tf.xml -b 4 -t 2  -api sync -hint none -nstreams 4 -nthreads 4 -report_type detailed_counters -report_folder ./resnet50/thread4/q8/
+  991  benchmark_app -m ./model/resnet-50-tf/FP16-INT8/resnet-50-tf.xml -b 4 -t 2  -api sync -hint none -nstreams 1 -nthreads 4 -report_type detailed_counters -report_folder ./resnet50/thread4/q8/
+  992  benchmark_app -m ./model/resnet-50-tf/FP16-INT8/resnet-50-tf.xml -b 4 -t 2  -api sync -hint none -nthreads 4 -report_type detailed_counters -report_folder ./resnet50/thread4/q8/
+  993  benchmark_app -m ./model/resnet-50-tf/FP16-INT8/resnet-50-tf.xml -b 1 -t 2  -api sync -hint none -nthreads 4 -report_type detailed_counters -report_folder ./resnet50/thread4/q8/
+  994  benchmark_app -m ./model/resnet-50-tf/FP16-INT8/resnet-50-tf.xml -b 4 -t 2  -api sync -hint none -nthreads 4 -report_type detailed_counters -report_folder ./resnet50/thread4/q8/
+  995  benchmark_app -m ./model/resnet-50-tf/FP16-INT8/resnet-50-tf.xml -b 1 -t 2  -api sync -hint none -nthreads 1 -report_type detailed_counters -report_folder ./resnet50/thread1/q8/
+  996  benchmark_app -m ./model/resnet-50-tf/FP16-INT8/resnet-50-tf.xml -b 1 -t 2  -nthreads 1 -report_type detailed_counters -report_folder ./resnet50/thread1/q8/
+  997  benchmark_app -m ./model/resnet-50-tf/FP16-INT8/resnet-50-tf.xml -b 1 -t 2  -hint none -nthreads 1 -report_type detailed_counters -report_folder ./resnet50/thread1/q8/
+  998  benchmark_app -m ./model/resnet-50-tf/FP16-INT8/resnet-50-tf.xml -b 1 -t 2   -report_type detailed_counters -report_folder ./resnet50/thread1/q8/
+  999  OPENMP_THREAD=1 benchmark_app -m ./model/resnet-50-tf/FP16-INT8/resnet-50-tf.xml -b 1 -t 2   -report_type detailed_counters -report_folder ./resnet50/thread1/q8/
+ 1000  taskset -c 0 benchmark_app -m ./model/resnet-50-tf/FP16-INT8/resnet-50-tf.xml -b 1 -t 2   -report_type detailed_counters -report_folder ./resnet50/thread1/q8/
+ 1001  taskset -c 0-3 benchmark_app -m ./model/resnet-50-tf/FP16-INT8/resnet-50-tf.xml -b 1 -t 2   -report_type detailed_counters -report_folder ./resnet50/thread1/q8/
+ 1002  taskset -c 0-3 benchmark_app -m ./model/resnet-50-tf/FP16-INT8/resnet-50-tf.xml -b 4 -t 2   -report_type detailed_counters -report_folder ./resnet50/thread1/q8/
+ 1003  taskset -c 0,2,4,6 benchmark_app -m ./model/resnet-50-tf/FP16-INT8/resnet-50-tf.xml -b 4 -t 2   -report_type detailed_counters -report_folder ./resnet50/thread1/q8/
+ 1004  lcpu
+ 1005  lscpu
+ 1006  cat /proc/cpuinfo
+ 1007  taskset -c 0-3 benchmark_app -m ./model/resnet-50-tf/FP16-INT8/resnet-50-tf.xml -b 4 -t 2   -report_type detailed_counters -report_folder ./resnet50/thread1/q8/
+ 1008  benchmark_app -m ./model/resnet-50-tf/FP16-INT8/resnet-50-tf.xml -b 4 -t 2  -api sync -hint none -nthreads 4 -report_type detailed_counters -report_folder ./resnet50/thread4/q8/
+ 1009  taskset -c 0-3 benchmark_app -m ./model/resnet-50-tf/FP16-INT8/resnet-50-tf.xml -b 4 -t 2   -report_type detailed_counters -report_folder ./resnet50/thread1/q8/
+ 1010  benchmark_app -m ./model/resnet-50-tf/FP16-INT8/resnet-50-tf.xml -b 4 -t 2  -api sync -hint none -nthreads 4 -report_type detailed_counters -report_folder ./resnet50/thread4/q8/
+ 1011  benchmark_app -m ./model/resnet-50-tf/FP16-INT8/resnet-50-tf.xml -b 4 -t 2 -nstream -nthreads 4 -report_type detailed_counters -report_folder ./resnet50/thread4/q8/
+ 1012  benchmark_app -m ./model/resnet-50-tf/FP16-INT8/resnet-50-tf.xml -b 4 -t 2  -api sync -hint none -nthreads 4 -report_type detailed_counters -report_folder ./resnet50/thread4/q8/
+ 1013  benchmark_app -h
+ 1014  benchmark_app -m ./model/resnet-50-tf/FP16-INT8/resnet-50-tf.xml -b 4 -t 2  -hint latency -nthreads 4 -report_type detailed_counters -report_folder ./resnet50/thread4/q8/
+ 1015  benchmark_app -m ./model/resnet-50-tf/FP16-INT8/resnet-50-tf.xml -b 4 -t 2  -hint latency  -report_type detailed_counters -report_folder ./resnet50/thread4/q8/
+ 1016  taskset -c0 benchmark_app -m ./model/resnet-50-tf/FP16-INT8/resnet-50-tf.xml -b 4 -t 2  -hint latency  -report_type detailed_counters -report_folder ./resnet50/thread4/q8/
+ 1017  taskset -c 0 benchmark_app -m ./model/resnet-50-tf/FP16-INT8/resnet-50-tf.xml -b 4 -t 2  -hint latency  -report_type detailed_counters -report_folder ./resnet50/thread4/q8/
+ 1018  taskset -c 0-3 benchmark_app -m ./model/resnet-50-tf/FP16-INT8/resnet-50-tf.xml -b 4 -t 2  -hint latency  -report_type detailed_counters -report_folder ./resnet50/thread4/q8/
+ 1019  taskset -c 0    benchmark_app -m ./model/resnet-50-tf/FP16-INT8/resnet-50-tf.xml -b 1 -t 2 -hint latency -report_type detailed_counters -report_folder ./resnet50/thread1/q8/
+ 1020  ls
+ 1021  ./testall.sh
+ 1022  taskset -c 0-3  benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -b 4 -t 2 -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[4]" -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1023  taskset -c 0-3  benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -b 4 -t 2 -shape "input_ids[4,128],attention_mask[4,128],position_ids[4,128],beam_idx[4]" -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1024  taskset -c 0-3  benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -t 2 -shape "input_ids[4,128],attention_mask[4,128],position_ids[4,128],beam_idx[4]" -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1025  taskset -c 0-3  benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -b 4  -t 2 -shape "input_ids[4,128],attention_mask[4,128],position_ids[4,128],beam_idx[4]" -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1026  benchmark_app \\n-m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml \\n-shape input_ids[4,128],attention_mask[4,128],position_ids[4,128],beam_idx[4] \\n-t 2 \\n-hint latency \\n-report_type detailed_counters \\n-report_folder ./llama/thread4/W8A16/
+ 1027  benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape input_ids[4,128],attention_mask[4,128],position_ids[4,128],beam_idx[4] -t 2 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1028  benchmark_app \\n-m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml \\n-shape "input_ids[4,128],attention_mask[4,128],position_ids[4,128],beam_idx[4]" \\n-t 2 \\n-hint latency \\n-report_type detailed_counters \\n-report_folder ./llama/thread4/W8A16/
+ 1029  benchmark_app -h
+ 1030  taskset -c 0    benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -b 1 -t 2 -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -hint latency -report_type detailed_counters -report_folder ./llama/thread1/W8A16/
+ 1031  taskset -c 0    benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -b 1 -t 2  -hint latency -report_type detailed_counters -report_folder ./llama/thread1/W8A16/
+ 1032  taskset -c 0    benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -b 4 -t 2 -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -hint latency -report_type detailed_counters -report_folder ./llama/thread1/W8A16/
+ 1033  taskset -c 0    benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -b 1 -t 2  -hint latency -report_type detailed_counters -report_folder ./llama/thread1/W8A16/
+ 1034  taskset -c 0    benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -b 4 -t 2  -hint latency -report_type detailed_counters -report_folder ./llama/thread1/W8A16/
+ 1035  taskset -c 0    benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -b 4 -seq 128 -t 2  -hint latency -report_type detailed_counters -report_folder ./llama/thread1/W8A16/
+ 1036  benchmark_app -h
+ 1037  taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -b 4 -seq 128 -t 2 -hint latency -report_type detailed_counters -report_folder ./llama/thread1/W8A16/
+ 1038  ls
+ 1039  cd llama
+ 1040  ls
+ 1041  mkdir thread4.bin
+ 1042  cd thread4.bin
+ 1043  ls
+ 1044  torch getbin.py
+ 1045  touch getbin.py
+ 1046  code getbin.py
+ 1047  ls
+ 1048  source ~/perftool/openvino_env_2025.2/bin/activate
+ 1049  python getbin.py
+ 1050  ls
+ 1051  benchmark_app \\n-m model.xml \\n-shape input_ids[4,128],attention_mask[4,128],position_ids[4,128],beam_idx[4] \\n-i ./llama/thread4.bin/llama_inputs/input_ids.npy ./llama/thread4.bin/llama_inputs/attention_mask.npy ./llama/thread4.bin/llama_inputs/position_ids.npy ./llama/thread4.bin/llama_inputs/beam_idx.npy \\n-t 2 \\n-hint latency
+ 1052  benchmark_app \\n-m model.xml \\n-shape "input_ids[4,128],attention_mask[4,128],position_ids[4,128],beam_idx[4]" \\n-i ./llama/thread4.bin/llama_inputs/input_ids.npy ./llama/thread4.bin/llama_inputs/attention_mask.npy ./llama/thread4.bin/llama_inputs/position_ids.npy ./llama/thread4.bin/llama_inputs/beam_idx.npy \\n-t 2 \\n-hint latency
+ 1053  source ~/perftool/openvino_env_2025.2/bin/activate
+ 1054  benchmark_app \\n-m model.xml \\n-shape "input_ids[4,128],attention_mask[4,128],position_ids[4,128],beam_idx[4]" \\n-i ./llama/thread4.bin/llama_inputs/input_ids.npy ./llama/thread4.bin/llama_inputs/attention_mask.npy ./llama/thread4.bin/llama_inputs/position_ids.npy ./llama/thread4.bin/llama_inputs/beam_idx.npy \\n-t 2 \\n-hint latency
+ 1055  benchmark_app \\n-m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml \\n-shape "input_ids[4,128],attention_mask[4,128],position_ids[4,128],beam_idx[4]" \\n-i ./llama/thread4.bin/llama_inputs/input_ids.npy ./llama/thread4.bin/llama_inputs/attention_mask.npy ./llama/thread4.bin/llama_inputs/position_ids.npy ./llama/thread4.bin/llama_inputs/beam_idx.npy \\n-t 2 \\n-hint latency
+ 1056  benchmark_app \\n-m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml \\n-shape "input_ids[4,128],attention_mask[4,128],position_ids[4,128],beam_idx[4]" \\n-i /home/perftest/perftool/openvino_report/llama/thread4.bin/llama_inputs/input_ids.npy /home/perftest/perftool/openvino_report/llama/thread4.bin/llama_inputs/attention_mask.npy /home/perftest/perftool/openvino_report/llama/thread4.bin/llama_inputs/position_ids.npy /home/perftest/perftool/openvino_report/llama/thread4.bin/llama_inputs/beam_idx.npy \\n-t 2 \\n-hint latency
+ 1057  benchmark_app \\n-m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml \\n-shape "input_ids[4,128],attention_mask[4,128],position_ids[4,128],beam_idx[4]" \\n-i ./llama/thread4.bin/llama_inputs/input_ids.npy ./llama/thread4.bin/llama_inputs/attention_mask.npy ./llama/thread4.bin/llama_inputs/position_ids.npy ./llama/thread4.bin/llama_inputs/beam_idx.npy \\n-t 2 \\n-hint latency
+ 1058  benchmark_app \\n-m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml \\n-shape "input_ids[4,128],attention_mask[4,128],position_ids[4,128],beam_idx[4]" \\n-i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy \\n-t 2 \\n-hint latency
+ 1059  taskset -c 0-3 benchmark_app \\n-m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml \\n-shape "input_ids[4,128],attention_mask[4,128],position_ids[4,128],beam_idx[4]" \\n-i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy \\n-t 2 \\n-hint latency
+ 1060  taskset -c 0-3 benchmark_app \\n-m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml \\n-shape "input_ids[4,128],attention_mask[4,128],position_ids[4,128],beam_idx[4]" \\n-i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy \\n-t 2 \\n-hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1061  taskset -c 0-3 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[4,128],attention_mask[4,128],position_ids[4,128],beam_idx[4]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -t 2 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1062  python getbin.py
+ 1063  taskset -c 0-3 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[4,128],attention_mask[4,128],position_ids[4,128],beam_idx[4]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -t 2 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1064  python getbin.py
+ 1065  taskset -c 0-3 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[4,128],attention_mask[4,128],position_ids[4,128],beam_idx[4]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -t 2 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1066  taskset -c 0-3 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -t 2 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1067  taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -t 2 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1068  ONEDNN_VERBOSE=1 taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -t 2 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1069  htop
+ 1070  ONEDNN_VERBOSE=1 taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -t 2 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1071  taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -t 2 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1072  taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml  -t 2 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1073  taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -t 2 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1074  taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -t 2 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1075  python getbin.py
+ 1076  taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -t 2 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1077  taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -t 2 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1078  taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -t 2 -hint latency -report_type detailed_counters -report_folder ./llama/thread1/W8A16/
+ 1079  taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -t 2 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1080  taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -iter 10 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1081  taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 10 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1082  ONEDNN_VERBOSE=1 taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 10 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1083  ONEDNN_VERBOSE=1 taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 10 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/ > test.dump
+ 1084  ONEDNN_VERBOSE=1 taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 10 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/ > openvino_with_input.csv
+ 1085  ONEDNN_VERBOSE=1 taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 5 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/ > openvino_with_input.dump
+ 1086  taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -t 2 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1087  ONEDNN_VERBOSE=1 taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -t 2 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/ > openvino_without_input.dump
+ 1088  taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -t 2 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1089  python getbin.py
+ 1090  taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -t 2 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1091  ONEDNN_VERBOSE=1 taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 10 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1092  taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 10 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1093  taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 1  -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1094  taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -t 2 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1095  taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,1024],attention_mask[1,1024],position_ids[1,1024],beam_idx[1]" -t 2 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1096  taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 5  -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1097  taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,128],attention_mask[1,128],position_ids[1,128],beam_idx[1]" -t 2 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1098  taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512],beam_idx[1]" -t 10 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1099  python getbin.py
+ 1100  taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 5  -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1101  cd ..
+ 1102  source ov-llm-bench-env/bin/activate
+ 1103  cd openvino.genai/tools/llm_bench
+ 1104  python benchmark.py
+ 1105  python benchmark.py -h
+ 1106  python benchmark.py -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8
+ 1107  python benchmark.py -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8 -r ./
+ 1108  python benchmark.py -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8 -r ./a.csv
+ 1109  code ./a.csv
+ 1110  python benchmark.py -h
+ 1111  benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512],beam_idx[1]" -t 10 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1112  source ov-llm-bench-env/bin/activate
+ 1113  source ~/perftool/openvino_env_2025.2/bin/activate
+ 1114  cd openvino_report
+ 1115  ls
+ 1116  benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512],beam_idx[1]" -t 10 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1117  taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512],beam_idx[1]" -t 10 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1118  taskset -c 0 benchmark_app -h
+ 1119  clear
+ 1120  taskset -c 0 benchmark_app -h
+ 1121  benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 5  -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1122  benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 0  -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1123  benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 1  -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1124  benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 2  -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1125  benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 3  -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1126  benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 1  -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1127  benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 2  -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1128  benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 1  -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1129  benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 2  -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1130  benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 1  -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1131  which benchmark_app
+ 1132  code /home/perftest/perftool/openvino_env_2025.2/bin/benchmark_app
+ 1133  taskset -c 0  benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 1  -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1134  ls
+ 1135  python benchmark.py -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8 -r ./a.csv
+ 1136  code ./benchmark.py
+ 1137  benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 1  -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1138  benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 10  -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1139  benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 1  -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1140  benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512],beam_idx[1]"  -niter 1  -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1141  benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512]"  -niter 1  -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1142  taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512]"  -niter 1  -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1143  taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512],beam_idx[1]" -t 10 -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1144  python benchmark.py -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8 -r ./a.csv
+ 1145  python benchmark.py -h
+ 1146  code a.csv
+ 1147  taskset -c 0-3 python benchmark.py -bs 4 -p 'a a a a a a a a a a a  a a a a  a a a  a a a  a a a a  a a a  a a  a a a  a a a a a a  a a a a a a  we q we 12 3 '  -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8 -r ./a.csv
+ 1148  taskset -c 0-3 python benchmark.py -p 'a a a a a a a a a a a  a a a a  a a a  a a a  a a a a  a a a  a a  a a a  a a a a a a  a a a a a a  we q we 12 3 '  -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8 -r ./a.csv
+ 1149  taskset -c 0-3 python benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a  a a a a  a a a  a a a  a a a a  a a a  a a  a a a  a a a a a a  a a a a a a  we q we 12 3 '  -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8 -r ./a.csv
+ 1150  taskset -c 0-3 python benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a '  -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8 -r ./a.csv
+ 1151  taskset -c 0-3 python benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a '  -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8 -r ./a.csv
+ 1152  taskset -c 0-3 python benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a '  -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8 -r ./a.csv
+ 1153  taskset -c 0 python benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a '  -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8 -r ./a.csv
+ 1154  python benchmark.py -h
+ 1155  taskset -c 0 python benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ' -ic 1 -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8 -r ./a.csv
+ 1156  ONEDNN_VERBOSE=1 taskset -c 0 python benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ' -ic 1 -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8 -r ./a.csv
+ 1157  benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 1  -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1158  benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 10  -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1159  taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 10  -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1160  taskset -c 0 benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 0  -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1161  taskset -c 0-3 python benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ' -bs 4 -ic 1 -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8 -r ./a.csv
+ 1162  ONEDNN_VERBOSE=1 taskset -c 0-3 python benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ' -bs 4 -ic 1 -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8 -r ./a.csv
+ 1163  taskset -c 0 python benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ' -bs 1 -ic 1 -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8 -r ./a.csv
+ 1164  python benchmark.py -h
+ 1165  printenv > "/tmp/tmp-1495031tkOaPlF8iTbX.txt"
+ 1166  taskset -c 0 python benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ' -bs 1 -ic 1 -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8 -r ./a.csv
+ 1167  taskset -c 0 python benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ' -bs 1 -ic 0 -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8 -r ./a.csv
+ 1168  taskset -c 0 python benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ' -bs 1 -ic 1 -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8 -r ./a.csv
+ 1169  source /home/perftest/perftool/ov-llm-bench-env/bin/activate
+ 1170  /home/perftest/perftool/ov-llm-bench-env/bin/python /home/perftest/perftool/openvino.genai/tools/llm_bench/task/text_generation.py
+ 1171  source /home/perftest/perftool/ov-llm-bench-env/bin/activate
+ 1172  taskset -c 0 python benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ' -bs 1 -ic 1 -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8 -r ./a.csv
+ 1173  ONEDNN_VERBOSE=debuginfo=999 taskset -c 0 python benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a '  -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8
+ 1174  cd openvino.genai/tools/llm_bench/
+ 1175  ls
+ 1176  ONEDNN_VERBOSE=debuginfo=999 taskset -c 0 python benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a '  -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8
+ 1177  ONEDNN_VERBOSE=all  taskset -c 0 python benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a '  -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8
+ 1178  source ~/perftool/openvino_env_2025.2/bin/activate
+ 1179  cd ../openvino.genai/tools/llm_bench
+ 1180  ls
+ 1181  ONEDNN_VERBOSE=1 taskset -c 0 python benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a '  -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8
+ 1182  source ~/perftool/openvino_env_2025.2/bin/activate
+ 1183  source ~/perftool/ov-llm-bench-env/bin/activate
+ 1184  ONEDNN_VERBOSE=1 taskset -c 0 python benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a '  -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8
+ 1185  ONEDNN_VERBOSE=1 taskset -c 0 python benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ' -bs 1 -ic 1 -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8
+ 1186  source /home/perftest/perftool/ov-llm-bench-env/bin/activate
+ 1187  source ../ov-llm-bench-env/bin/activate\n\nONEDNN_VERBOSE=1 taskset -c 0 python openvino.genai/tools/llm_bench/benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ' -bs 1 -ic 1 -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8 > ./llama/thread1/W8A16/benchmark_detailed_counters_report.csv
+ 1188  source ../ov-llm-bench-env/bin/activate\n\nONEDNN_VERBOSE=1 taskset -c 0 python openvino.genai/tools/llm_bench/benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ' -bs 1 -ic 1 -m /home/perftest/perftool/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8 > ./llama/thread1/W8A16/benchmark_detailed_counters_report.csv
+ 1189  source ../ov-llm-bench-env/bin/activate\n\nONEDNN_VERBOSE=1 taskset -c 0 python ../openvino.genai/tools/llm_bench/benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ' -bs 1 -ic 1 -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8 > ./llama/thread1/W8A16/benchmark_detailed_counters_report.csv
+ 1190  ONEDNN_VERBOSE=1 taskset -c 0-4 python ../openvino.genai/tools/llm_bench/benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ' -bs 4 -ic 1 -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8 > ./llama/thread4/W8A16/benchmark_detailed_counters_report.csv
+ 1191  source ../openvino_env_2025.2/bin/activate
+ 1192  ls
+ 1193  cd matmul
+ 1194  ls
+ 1195  touch getonnx_model.py
+ 1196  code getonnx_model.py
+ 1197  source /home/perftest/perftool/ov-llm-bench-env/bin/activate
+ 1198  /home/perftest/perftool/ov-llm-bench-env/bin/python /home/perftest/perftool/openvino_report/matmul/getonnx_model.py
+ 1199  ls
+ 1200  cd openvino_report/matmul/
+ 1201  ls
+ 1202  ./getonnx_model.py
+ 1203  python getonnx_model.py
+ 1204  ls
+ 1205  benchmark_app -m ./matmul.onnx
+ 1206  taskset -c 0 benchmark_app -m ./matmul.onnx -t 1 
+ 1207  source /home/perftest/perftool/ov-llm-bench-env/bin/activate
+ 1208  python getonnx_model.py 256
+ 1209  python getonnx_model.py 256 256 256
+ 1210  python getonnx_model.py 8192 8192 8192
+ 1211  benchmark_app -m ./matmul_models/matmul_8192.onnx -t 1
+ 1212  taskset -c 0 benchmark_app -m ./matmul_models/matmul_8192.onnx -t 1
+ 1213  source /home/perftest/perftool/ov-llm-bench-env/bin/activate
+ 1214  ls
+ 1215  python getonnx_model.py 256 256 256
+ 1216  python getonnx_model.py 512 512 512
+ 1217  ls
+ 1218  ./get_model.sh
+ 1219  chmod +x get_model.sh
+ 1220  ./get_model.sh
+ 1221  cd ..
+ 1222  ls
+ 1223  benchmark_app -m ./model/matmul/matmul_models/matmul_1024.onnx -t 1
+ 1224  source /home/perftest/perftool/ov-llm-bench-env/bin/activate
+ 1225  ls
+ 1226  ./get_model.sh
+ 1227  ONEDNN_VERBOSE=1 benchmark_app -m ./model/matmul/matmul_models/matmul_1024.onnx -t 1
+ 1228  ./get_model.sh
+ 1229  ONEDNN_VERBOSE=1 benchmark_app -m ./model/matmul/matmul_models/matmul_1024.onnx -t 1
+ 1230  ./get_model.sh
+ 1231  ONEDNN_VERBOSE=1 benchmark_app -m ./model/matmul/matmul_models/matmul_1024.onnx -t 1
+ 1232  ./get_model.sh
+ 1233  ONEDNN_VERBOSE=1 benchmark_app -m ./model/matmul/matmul_models/matmul_1024.onnx -t 1
+ 1234  benchmark_app -m ./model/matmul/matmul_models/matmul_1024.onnx -t 1
+ 1235  ./get_model.sh
+ 1236  benchmark_app -m ./model/matmul/matmul_models/matmul_1024.onnx -t 1
+ 1237  ll ./model/matmul/matmul_models/matmul_1024.onnx
+ 1238  ./get_model.sh
+ 1239  ls
+ 1240  ./get_model.sh
+ 1241  benchmark_app -m ./model/matmul/matmul_models/matmul_1024.onnx
+ 1242  ONEDNN_VERBOSE=1 taskset -c 0 benchmark_app -m ./model/matmul/matmul_models/matmul_1024.onnx -t 1
+ 1243  ./get_model.sh
+ 1244  ONEDNN_VERBOSE=1 taskset -c 0 benchmark_app -m ./model/matmul/matmul_models/matmul_1024.onnx -t 1
+ 1245  ONEDNN_VERBOSE=1 taskset -c 0 benchmark_app -m ./model/matmul/matmul_models/qmatmul_1024.onnx -t 1
+ 1246  pot
+ 1247  source /home/perftest/perftool/ov-llm-bench-env/bin/activate
+ 1248  ls
+ 1249  python getonnx_model.py
+ 1250  python getov_model.py
+ 1251  python getov_model.py 256 256 256
+ 1252  ONEDNN_VERBOSE=1 taskset -c 0 benchmark_app -m ./matmul_ir/matmul_256x256_256x256.xml  -t 1
+ 1253  taskset -c 0 benchmark_app -m ./matmul_ir/matmul_256x256_256x256.xml  -t 1
+ 1254  python getov_model.py 256 256 256
+ 1255  taskset -c 0 benchmark_app -m ./matmul_ir/matmul_256x256_256x256.xml  -t 1
+ 1256  ONEDNN_VERBOSE=1 taskset -c 0 benchmark_app -m ./matmul_ir/matmul_256x256_256x256.xml  -t 1
+ 1257  source /home/perftest/perftool/ov-llm-bench-env/bin/activate
+ 1258  git pull
+ 1259  git checkout v3.9
+ 1260  code .
+ 1261  cd ..
+ 1262  ls
+ 1263  python3.10 -m venv onednn
+ 1264  python3 -m venv onednn
+ 1265  source onednn/bin/activate
+ 1266  sudo pip install onednn
+ 1267  pip install onednn
+ 1268  pip install onednn -i https://pypi.tuna.tsinghua.edu.cn/simple
+ 1269  ls
+ 1270  mkdir -p build ; cd build
+ 1271  cmake ..
+ 1272  cmake --build . --parallel 128
+ 1273  cd tests/benchdnn/
+ 1274  ls
+ 1275  ./benchdnn -h
+ 1276  ./benchdnn 
+ 1277  ./benchdnn --help
+ 1278  ./benchdnn --verbose=99  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+ 1279  ./benchdnn  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+ 1280  taskset -c 0 ./benchdnn  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n               --attr-zero-points=src:common:1+dst:common:-2 512x512:512x512
+ 1281  taskset -c 0 ./benchdnn  --mode=p --matmul \\n               --dt=u8:s8:s32 \\n               --wtag=any \\n                512x512:512x512
+ 1282  taskset -c 0 ./benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any 512x512:512x512
+ 1283  taskset -c 0 ./benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any 512x512:512x512 --mode=p --matmul --dt=u8:s8:s32 --wtag=any 512x512:512x512
+ 1284  taskset -c 0 ./benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any 512x512:512x512 --mode=p --matmul --dt=u8:s8:s32 --wtag=any 512x512:512x512 128x128:128x128
+ 1285  taskset -c 0 ./benchdnn  --mode=p --matmul --dt=u8:s8:s32 --wtag=any 512x512:512x512 128x128:128x128
+ 1286  source /home/perftest/perftool/ov-llm-bench-env/bin/activate
+ 1287  cd openvino_report
+ 1288  ls
+ 1289  taskset -c 0 ../oneDNN/build/tests/benchdnn/benchdnn --mode=p --matmul --dt=u8:s8:s32 --wtag=any 256x256:256x256 512x512:512x512 768x768:768x768 1024x1024:1024x1024 1280x1280:1280x1280 1536x1536:1536x1536 1792x1792:1792x1792 2048x2048:2048x2048 2304x2304:2304x2304 2560x2560:2560x2560 2816x2816:2816x2816 3072x3072:3072x3072 3328x3328:3328x3328 3584x3584:3584x3584 3840x3840:3840x3840 4096x4096:4096x4096 4352x4352:4352x4352 4608x4608:4608x4608 4864x4864:4864x4864 5120x5120:5120x5120 5376x5376:5376x5376 5632x5632:5632x5632 5888x5888:5888x5888 6144x6144:6144x6144 6400x6400:6400x6400 6656x6656:6656x6656 6912x6912:6912x6912 7168x7168:7168x7168 7424x7424:7424x7424 7680x7680:7680x7680 7936x7936:7936x7936 8192x8192:8192x8192  > ./matmul/thread1/
+ 1290  taskset -c 0 ../oneDNN/build/tests/benchdnn/benchdnn --mode=p --matmul --dt=u8:s8:s32 --wtag=any 256x256:256x256 512x512:512x512 768x768:768x768 1024x1024:1024x1024 1280x1280:1280x1280 1536x1536:1536x1536 1792x1792:1792x1792 2048x2048:2048x2048 2304x2304:2304x2304 2560x2560:2560x2560 2816x2816:2816x2816 3072x3072:3072x3072 3328x3328:3328x3328 3584x3584:3584x3584 3840x3840:3840x3840 4096x4096:4096x4096 4352x4352:4352x4352 4608x4608:4608x4608 4864x4864:4864x4864 5120x5120:5120x5120 5376x5376:5376x5376 5632x5632:5632x5632 5888x5888:5888x5888 6144x6144:6144x6144 6400x6400:6400x6400 6656x6656:6656x6656 6912x6912:6912x6912 7168x7168:7168x7168 7424x7424:7424x7424 7680x7680:7680x7680 7936x7936:7936x7936 8192x8192:8192x8192  > ./matmul/thread1/amx_matmul.csv
+ 1291  taskset -c 0-3 ../oneDNN/build/tests/benchdnn/benchdnn --mode=p --matmul --dt=u8:s8:s32 --wtag=any 256x256:256x256 512x512:512x512 768x768:768x768 1024x1024:1024x1024 1280x1280:1280x1280 1536x1536:1536x1536 1792x1792:1792x1792 2048x2048:2048x2048 2304x2304:2304x2304 2560x2560:2560x2560 2816x2816:2816x2816 3072x3072:3072x3072 3328x3328:3328x3328 3584x3584:3584x3584 3840x3840:3840x3840 4096x4096:4096x4096 4352x4352:4352x4352 4608x4608:4608x4608 4864x4864:4864x4864 5120x5120:5120x5120 5376x5376:5376x5376 5632x5632:5632x5632 5888x5888:5888x5888 6144x6144:6144x6144 6400x6400:6400x6400 6656x6656:6656x6656 6912x6912:6912x6912 7168x7168:7168x7168 7424x7424:7424x7424 7680x7680:7680x7680 7936x7936:7936x7936 8192x8192:8192x8192  > ./matmul/thread4/amx_matmul.csv
+ 1292  ls
+ 1293  source /home/perftest/perftool/ov-llm-bench-env/bin/activate
+ 1294  git init
+ 1295  git add bert-base-ner/ resnet-50-tf/ 
+ 1296  git add bert-base-ner/ resnet-50-tf/
+ 1297  git commit -m 'init model zoo from openvino model zoo'
+ 1298  git config --global user.email "a"
+ 1299  git config --global user.name "a"
+ 1300  git commit -m 'init model zoo from openvino model zoo'
+ 1301  git push
+ 1302  git remote add https://github.com/CUTE-Project/openvino.genai.git
+ 1303  git remote add orignal https://github.com/CUTE-Project/openvino.genai.git
+ 1304  git push
+ 1305  git push --set-upstream orignal master
+ 1306  source /home/perftest/perftool/ov-llm-bench-env/bin/activate
+ 1307  cd ../.ssh
+ 1308  ls
+ 1309  ssh-keygen
+ 1310  ssh-keygen -t ed25519 -C "596345016@qq.com"
+ 1311  ls
+ 1312  cat id_ed25519
+ 1313  cat id_ed25519.pub
+ 1314  source /home/perftest/perftool/ov-llm-bench-env/bin/activate
+ 1315  git push --set-upstream orignal master
+ 1316  git remote add origin git@github.com:CUTE-Project/model_zoo_Quantitative.git
+ 1317  git push -u origin main
+ 1318  git push -u origin master
+ 1319  echo $http_proxy
+ 1320  git push -u origin master
+ 1321  git -t
+ 1322  ssh -t github.com
+ 1323  echo "# model_zoo_Quantitative" >> README.md
+ 1324  ls
+ 1325  git add README.md
+ 1326  git commit -m 'init model zoo from openvino model zoo'
+ 1327  git push -u origin master
+ 1328  ssh -t github.com
+ 1329  ssh -T git@github.com
+ 1330  git remote update origin https://github.com/CUTE-Project/model_zoo_Quantitative.git
+ 1331  git remote add origin https://github.com/CUTE-Project/model_zoo_Quantitative.git
+ 1332  git remote update origin https://github.com/CUTE-Project/model_zoo_Quantitative.git
+ 1333  git remote rm origin
+ 1334  git remote rm orignal
+ 1335  git remote add origin https://github.com/CUTE-Project/model_zoo_Quantitative.git
+ 1336  git push -u origin master
+ 1337  git remote rm origin
+ 1338  git remote add origin git@github.com:CUTE-Project/model_zoo_Quantitative.git
+ 1339  git push -u origin main
+ 1340  git push -u origin master
+ 1341  ssh -T git@github.com
+ 1342  ssh -vvvv -T git@github.com
+ 1343  code ~/.ssh/config
+ 1344  ssh -vvvv -T git@github.com
+ 1345  ssh -T git@github.com
+ 1346  ssh -vvvv -T git@github.com
+ 1347  ssh  -T git@github.com
+ 1348  git push -u origin master
+ 1349  sudo apt-get install git-lfs\n
+ 1350  sudo apt-get update\n
+ 1351  sudo apt-get install git-lfs\n
+ 1352  git lfs install
+ 1353  git lfs track "*.bin"
+ 1354  git lfs track "*.onnx"
+ 1355  rm -rf .git
+ 1356  git init\ngit remote add origin git@github.com:CUTE-Project/model_zoo_Quantitative.git
+ 1357  git lfs track "*.bin" "*.onnx" "*.pb"\ngit add .\ngit commit -m "init with LFS"\ngit push origin master
+ 1358  source /home/perftest/perftool/ov-llm-bench-env/bin/activate
+ 1359  code ./init_yjp_githubtoken.sh
+ 1360  git push origin master
+ 1361  source /home/perftest/perftool/ov-llm-bench-env/bin/activate
+ 1362  git init
+ 1363  ls
+ 1364  git add bert llama/ matmul/ resnet50/ init.sh testall.sh
+ 1365  git commit -m 'init'
+ 1366  echo "# amx-test" >> README.md
+ 1367  git add README.md
+ 1368  git commit -m "init"
+ 1369  git remote add origin git@github.com:CUTE-Project/amx-test.git
+ 1370  git push -u origin main
+ 1371  git push -u origin master
+ 1372  code ..
+ 1373  source /home/perftest/perftool/ov-llm-bench-env/bin/activate
+ 1374  hf auth login
+ 1375  hf upload jsonexb/Quantitative-model-for-amx-test .
+ 1376  source /home/perftest/perftool/ov-llm-bench-env/bin/activate
+ 1377  code .
+ 1378  ls
+ 1379  mkdir get_spacemit_onnx
+ 1380  cd get_spacemit_onnx
+ 1381  code .
+ 1382  source ../openvino_env_2025.2/bin/activate
+ 1383  ls
+ 1384  python get.py
+ 1385  pip install onnx
+ 1386  python get.py
+ 1387  ll
+ 1388  python get.py
+ 1389  ll
+ 1390  python get.py
+ 1391  ls
+ 1392  cd ..
+ 1393  l;s
+ 1394  cd openvino_report
+ 1395  ls
+ 1396  OV_CPU_EXECUTION_PROFILING=1 taskset -c 0 python ../openvino.genai/tools/llm_bench/benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ' -bs 1 -ic 1 -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8 > ./llama/thread1/W8A16/benchmark_detailed_counters_report.csv
+ 1397  OV_PERF_COUNT=YES OV_CPU_EXECUTION_PROFILING=1 taskset -c 0 python ../openvino.genai/tools/llm_bench/benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ' -bs 1 -ic 1 -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8
+ 1398  python ../openvino.genai/tools/llm_bench/benchmark.py -h
+ 1399  OV_PERF_COUNT=YES OV_CPU_EXECUTION_PROFILING=1 taskset -c 0 python ../openvino.genai/tools/llm_bench/benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ' -lc ./openvino.json  -bs 1 -ic 1 -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8
+ 1400  source /home/perftest/perftool/ov-llm-bench-env/bin/activate
+ 1401  ls
+ 1402  python ./testllama.py
+ 1403  history > history.txt
+ 1404  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -niter 1  -shape "input_ids[1,1024],attention_mask[1,1024],position_ids[1,1024],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder openvino_report/llama
+ 1405  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -niter 1  -shape "input_ids[1,1024],attention_mask[1,1024],position_ids[1,1024],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder ./
+ 1406  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -niter 1  -shape "input_ids[4,1024],attention_mask[4,1024],position_ids[4,1024],beam_idx[4]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder ./
+ 1407  taskset -c 0 benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -niter 1  -shape "input_ids[4,1024],attention_mask[4,1024],position_ids[4,1024],beam_idx[4]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder ./
+ 1408  taskset -c 0-3 benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -niter 1  -shape "input_ids[4,1024],attention_mask[4,1024],position_ids[4,1024],beam_idx[4]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder ./
+ 1409  taskset -c 0-3 benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -niter 1  -shape "input_ids[4,1024],attention_mask[4,1024],position_ids[4,1024],beam_idx[4]" -api sync -report_type detailed_counters -report_folder ./
+ 1410  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -niter 1  -shape "input_ids[4,1024],attention_mask[4,1024],position_ids[4,1024],beam_idx[4]" -api sync -hint none -nstreams 1 -nthreads 4 -report_type detailed_counters -report_folder ./
+ 1411  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -niter 10  -shape "input_ids[1,1024],attention_mask[1,1024],position_ids[1,1024],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder ./
+ 1412  benchmark_app -m /home/perftest/perftool/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -niter 100  -shape "input_ids[1,1024],attention_mask[1,1024],position_ids[1,1024],beam_idx[1]" -api sync -hint none -nstreams 1 -nthreads 1 -report_type detailed_counters -report_folder ./
+ 1413  benchmark_app -m ./model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8/openvino_model.xml -shape "input_ids[1,512],attention_mask[1,512],position_ids[1,512],beam_idx[1]" -i ./llama/thread4.bin/llama_inputs/input_ids.npy,./llama/thread4.bin/llama_inputs/attention_mask.npy,./llama/thread4.bin/llama_inputs/position_ids.npy,./llama/thread4.bin/llama_inputs/beam_idx.npy -niter 5  -hint latency -report_type detailed_counters -report_folder ./llama/thread4/W8A16/
+ 1414  ls
+ 1415  python testllama.py
+ 1416  taskset -c 0 python testllama.py
+ 1417  python testllama.py
+ 1418  taskset -c 0 python testllama.py
+ 1419* source /home/perftest/perftool/ov-llm-bench-env/bin/activate
+ 1420* htop
+ 1421  taskset -c 0 python testllama.py
+ 1422  python testllama.py
+ 1423  taskset -c 0 python testllama.py
+ 1424* source /home/perftest/perftool/ov-llm-bench-env/bin/activate
+ 1425* git clone https://github.com/ggml-org/llama.cpp.git
+ 1426  python testllama.py
+ 1427  taskset -c 0  python testllama.py
+ 1428* source /home/perftest/perftool/ov-llm-bench-env/bin/activate
+ 1429* cd /home/perftest/perftool/llama.model/openvino/
+ 1430* ls
+ 1431* cd Llama-3.2-1B-Instruct-Q
+ 1432* cd Llama-3.2-1B-Instruct-Q16
+ 1433* cd ..
+ 1434* cd Llama-3.2-1B-Instruct-Q16
+ 1435* ls
+ 1436  python testllama.py
+ 1437  ONEDNN_VERBOSE=1 python testllama.py
+ 1438  python testllama.py
+ 1439  ONEDNN_VERBOSE=1 python testllama.py
+ 1440  ONEDNN_VERBOSE=1 python testllama.py > t.csv
+ 1441  code ./t.csv
+ 1442  python testllama.py
+ 1443  taskset -c 0 python testllama.py
+ 1444* OV_PERF_COUNT=YES OV_CPU_EXECUTION_PROFILING=1 taskset -c 0 python ../openvino.genai/tools/llm_bench/benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ' -lc ./openvino.json  -bs 1 -ic 1 -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q16
+ 1445* taskset -c 0 python ../openvino.genai/tools/llm_bench/benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ' -lc ./openvino.json  -bs 1 -ic 1 -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q16
+ 1446* taskset -c 0 python ../openvino.genai/tools/llm_bench/benchmark.py -p 'a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ' -lc ./openvino.json  -bs 1 -ic 1 -m /home/perftest/perftool/openvino_report/model/llama.model/openvino/Llama-3.2-1B-Instruct-Q8-all
+ 1447  taskset -c 0 python testllama.py
+ 1448  python testllama.py

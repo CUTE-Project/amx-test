@@ -1,0 +1,625 @@
+onednn_verbose,v1,info,oneDNN v3.6.2 (commit 793dd02883483385fb7ee3b1af1e4273ce833444)
+onednn_verbose,v1,info,cpu,runtime:TBB,nthr:1
+onednn_verbose,v1,info,cpu,isa:Intel AVX-512 with float16, Intel DL Boost and bfloat16 support and Intel AMX with bfloat16 and 8-bit integer support
+onednn_verbose,v1,info,gpu,runtime:none
+onednn_verbose,v1,primitive,info,template:operation,engine,primitive,implementation,prop_kind,memory_descriptors,attributes,auxiliary,problem_desc,exec_time
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0.00195312
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s32::blocked:a::f0 dst:f32::blocked:a::f0,,,1,0.000976562
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0.000976562
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0.000976562
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0.000976562
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0.000976562
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0.000976562
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0.000976562
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0.000976562
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0.0012207
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0.0012207
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0.000976562
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0.000976562
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0.000976562
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0.000976562
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0.0012207
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0.000976562
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0.000976562
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0.0012207
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0.000976562
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0.000976562
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0.000976562
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0.000976562
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0.000976562
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0.000976562
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0.000976562
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0.000976562
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0.000976562
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:a::f0 dst:s32::blocked:a::f0,,,1,0.000976562
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32::blocked:abcd::f0,,,1x1x1x77,0.000976562
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s32::blocked:a::f0 dst:f32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s32::blocked:a::f0 dst:f32::blocked:a::f0,,,1,0
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,2.34106
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-post-ops:binary_add:f32:2+binary_mul:f32:2,,mb77ic2048oc2048,0.750977
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx512_core,undef,src:f32::blocked:abc::f0 wei:f32::blocked:abc::f0 dst:f32::blocked:abc::f0,attr-scratchpad:user,,1x32x1:1x1x77,0.0288086
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.578857
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32::blocked:aBcd16b::f0,,,1x32x77x64,0.178955
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:aBcd16b::f0 dst:bf16::blocked:abcd::f0,,,1x32x77x64,0.097168
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-post-ops:binary_add:f32:2+binary_mul:f32:2,,mb77ic2048oc512,0.144043
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32:p:blocked:aBcd16b::f0,,,1x8x77x64,0.0209961
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8:p:blocked:aBcd16b::f0 dst:s8::blocked:abcd::f0,,,1x8x77x64,0.0161133
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.733887
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.0400391
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abdc::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x64:1x32x64x77,0.12793
+onednn_verbose,v1,primitive,exec,cpu,softmax,jit:avx10_1_512,forward_inference,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,alg:softmax_accurate axis:3,1x32x77x77,0.166992
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-post-ops:binary_add:f32:2+binary_mul:f32:2,,mb77ic2048oc512,0.130127
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,,,1x8x77x64,0.00683594
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.166016
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x77:1x32x77x64,0.148926
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.25
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.154053
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0751953
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.677979
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,12.832
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,12.821
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.204834
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.072998
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32 attr-post-ops:eltwise_swish:1,,mb77ic2048oc8192,3.63501
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc8192,3.41406
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x8192,14.3821
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x8192,1.2439
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x8192,0.299072
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic8192oc2048,2.83496
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.323
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.151123
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0749512
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.703125
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.828125
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32::blocked:aBcd16b::f0,,,1x32x77x64,0.0861816
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:aBcd16b::f0 dst:bf16::blocked:abcd::f0,,,1x32x77x64,0.100098
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.138916
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32:p:blocked:aBcd16b::f0,,,1x8x77x64,0.0168457
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8:p:blocked:aBcd16b::f0 dst:u8::blocked:abcd::f0,,,1x8x77x64,0.0158691
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.843018
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.0380859
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abdc::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x64:1x32x64x77,0.0859375
+onednn_verbose,v1,primitive,exec,cpu,softmax,jit:avx10_1_512,forward_inference,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,alg:softmax_accurate axis:3,1x32x77x77,0.166016
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.143066
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,,,1x8x77x64,0.00708008
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.0339355
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x77:1x32x77x64,0.113037
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.26904
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.111084
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0749512
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.711914
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,12.8621
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,12.8689
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.103027
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0749512
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32 attr-post-ops:eltwise_swish:1,,mb77ic2048oc8192,3.31396
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc8192,2.8689
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x8192,14.396
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x8192,1.04907
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x8192,0.297852
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic8192oc2048,2.823
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.2522
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0930176
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0751953
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.666992
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,1.08691
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32::blocked:aBcd16b::f0,,,1x32x77x64,0.0930176
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:aBcd16b::f0 dst:bf16::blocked:abcd::f0,,,1x32x77x64,0.143066
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.166016
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32:p:blocked:aBcd16b::f0,,,1x8x77x64,0.0400391
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8:p:blocked:aBcd16b::f0 dst:u8::blocked:abcd::f0,,,1x8x77x64,0.0400391
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,1.08594
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.0419922
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abdc::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x64:1x32x64x77,0.0930176
+onednn_verbose,v1,primitive,exec,cpu,softmax,jit:avx10_1_512,forward_inference,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,alg:softmax_accurate axis:3,1x32x77x77,0.218018
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.137207
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,,,1x8x77x64,0.00708008
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.019043
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x77:1x32x77x64,0.10791
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.2749
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0959473
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0749512
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.706055
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,13.0259
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,12.9001
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0900879
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0749512
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32 attr-post-ops:eltwise_swish:1,,mb77ic2048oc8192,3.31421
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc8192,2.84888
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x8192,14.3699
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x8192,0.967041
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x8192,0.302979
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic8192oc2048,2.8042
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.25
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0898438
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0751953
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.72998
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,1.18604
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32::blocked:aBcd16b::f0,,,1x32x77x64,0.0949707
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:aBcd16b::f0 dst:bf16::blocked:abcd::f0,,,1x32x77x64,0.150879
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.156982
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32:p:blocked:aBcd16b::f0,,,1x8x77x64,0.0300293
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8:p:blocked:aBcd16b::f0 dst:u8::blocked:abcd::f0,,,1x8x77x64,0.0300293
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.857178
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.0400391
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abdc::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x64:1x32x64x77,0.0910645
+onednn_verbose,v1,primitive,exec,cpu,softmax,jit:avx10_1_512,forward_inference,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,alg:softmax_accurate axis:3,1x32x77x77,0.167969
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.128906
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,,,1x8x77x64,0.00708008
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.019043
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x77:1x32x77x64,0.104004
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.32886
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0939941
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0751953
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,1.3999
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,14.29
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,12.866
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0891113
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0749512
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32 attr-post-ops:eltwise_swish:1,,mb77ic2048oc8192,3.28394
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc8192,2.76489
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x8192,14.4451
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x8192,0.914062
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x8192,0.310059
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic8192oc2048,2.82397
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.29199
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.102051
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0749512
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.684814
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.814941
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32::blocked:aBcd16b::f0,,,1x32x77x64,0.072998
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:aBcd16b::f0 dst:bf16::blocked:abcd::f0,,,1x32x77x64,0.0939941
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.12207
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32:p:blocked:aBcd16b::f0,,,1x8x77x64,0.0258789
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8:p:blocked:aBcd16b::f0 dst:u8::blocked:abcd::f0,,,1x8x77x64,0.0229492
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.830078
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.0429688
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abdc::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x64:1x32x64x77,0.0800781
+onednn_verbose,v1,primitive,exec,cpu,softmax,jit:avx10_1_512,forward_inference,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,alg:softmax_accurate axis:3,1x32x77x77,0.166992
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.126953
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,,,1x8x77x64,0.0090332
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.0200195
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x77:1x32x77x64,0.114014
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.26587
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0908203
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0759277
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.707764
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,12.8989
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,12.9041
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0898438
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0800781
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32 attr-post-ops:eltwise_swish:1,,mb77ic2048oc8192,4.15991
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc8192,2.91699
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x8192,14.6108
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x8192,0.797852
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x8192,0.298096
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic8192oc2048,3.30298
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.323
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0910645
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0749512
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.666016
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.826904
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32::blocked:aBcd16b::f0,,,1x32x77x64,0.0739746
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:aBcd16b::f0 dst:bf16::blocked:abcd::f0,,,1x32x77x64,0.0939941
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.123047
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32:p:blocked:aBcd16b::f0,,,1x8x77x64,0.0310059
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8:p:blocked:aBcd16b::f0 dst:u8::blocked:abcd::f0,,,1x8x77x64,0.0219727
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.855957
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.0419922
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abdc::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x64:1x32x64x77,0.0830078
+onednn_verbose,v1,primitive,exec,cpu,softmax,jit:avx10_1_512,forward_inference,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,alg:softmax_accurate axis:3,1x32x77x77,0.168213
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.131104
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,,,1x8x77x64,0.0090332
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.0200195
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x77:1x32x77x64,0.112061
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.28516
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.126953
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0751953
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.687012
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,13.0071
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,12.9031
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0891113
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0749512
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32 attr-post-ops:eltwise_swish:1,,mb77ic2048oc8192,3.17188
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc8192,2.83105
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x8192,14.5981
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x8192,0.9021
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x8192,0.296143
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic8192oc2048,2.83008
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.25708
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0910645
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0751953
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.693848
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.840088
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32::blocked:aBcd16b::f0,,,1x32x77x64,0.0710449
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:aBcd16b::f0 dst:bf16::blocked:abcd::f0,,,1x32x77x64,0.0939941
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.117188
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32:p:blocked:aBcd16b::f0,,,1x8x77x64,0.0339355
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8:p:blocked:aBcd16b::f0 dst:u8::blocked:abcd::f0,,,1x8x77x64,0.0200195
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.849854
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.0400391
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abdc::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x64:1x32x64x77,0.0820312
+onednn_verbose,v1,primitive,exec,cpu,softmax,jit:avx10_1_512,forward_inference,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,alg:softmax_accurate axis:3,1x32x77x77,0.173096
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.131836
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,,,1x8x77x64,0.00805664
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.0187988
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x77:1x32x77x64,0.111084
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.34399
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0900879
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0739746
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.682861
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,13.0232
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,13.062
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0891113
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0759277
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32 attr-post-ops:eltwise_swish:1,,mb77ic2048oc8192,3.28979
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc8192,2.85498
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x8192,14.5759
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x8192,0.817871
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x8192,0.298096
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic8192oc2048,2.823
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.29297
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0959473
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0739746
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.671143
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.853027
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32::blocked:aBcd16b::f0,,,1x32x77x64,0.0739746
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:aBcd16b::f0 dst:bf16::blocked:abcd::f0,,,1x32x77x64,0.0930176
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.11792
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32:p:blocked:aBcd16b::f0,,,1x8x77x64,0.0288086
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8:p:blocked:aBcd16b::f0 dst:u8::blocked:abcd::f0,,,1x8x77x64,0.0209961
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.839844
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.0380859
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abdc::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x64:1x32x64x77,0.0810547
+onednn_verbose,v1,primitive,exec,cpu,softmax,jit:avx10_1_512,forward_inference,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,alg:softmax_accurate axis:3,1x32x77x77,0.166992
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.12915
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,,,1x8x77x64,0.00708008
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.019043
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x77:1x32x77x64,0.112061
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.35791
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0888672
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0749512
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.685059
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,13.0679
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,13.4829
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0888672
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0749512
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32 attr-post-ops:eltwise_swish:1,,mb77ic2048oc8192,3.23779
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc8192,2.80981
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x8192,14.6541
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x8192,0.796875
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x8192,0.302002
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic8192oc2048,2.84814
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.31104
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.116943
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0749512
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.669922
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.835205
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32::blocked:aBcd16b::f0,,,1x32x77x64,0.0739746
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:aBcd16b::f0 dst:bf16::blocked:abcd::f0,,,1x32x77x64,0.0917969
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.125
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32:p:blocked:aBcd16b::f0,,,1x8x77x64,0.0300293
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8:p:blocked:aBcd16b::f0 dst:u8::blocked:abcd::f0,,,1x8x77x64,0.0197754
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.849854
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.0500488
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abdc::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x64:1x32x64x77,0.0830078
+onednn_verbose,v1,primitive,exec,cpu,softmax,jit:avx10_1_512,forward_inference,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,alg:softmax_accurate axis:3,1x32x77x77,0.168945
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.130859
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,,,1x8x77x64,0.00708008
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.019043
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x77:1x32x77x64,0.112061
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.31201
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0908203
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0749512
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.680908
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,13.188
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,13.228
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0878906
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0749512
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32 attr-post-ops:eltwise_swish:1,,mb77ic2048oc8192,3.29199
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc8192,2.81201
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x8192,14.3921
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x8192,0.536133
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x8192,0.296875
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic8192oc2048,2.81494
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.28394
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0910645
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0808105
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.673096
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.828857
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32::blocked:aBcd16b::f0,,,1x32x77x64,0.0720215
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:aBcd16b::f0 dst:bf16::blocked:abcd::f0,,,1x32x77x64,0.0930176
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.121094
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32:p:blocked:aBcd16b::f0,,,1x8x77x64,0.0319824
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8:p:blocked:aBcd16b::f0 dst:u8::blocked:abcd::f0,,,1x8x77x64,0.0200195
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.858887
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.0380859
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abdc::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x64:1x32x64x77,0.0808105
+onednn_verbose,v1,primitive,exec,cpu,softmax,jit:avx10_1_512,forward_inference,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,alg:softmax_accurate axis:3,1x32x77x77,0.167969
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.126953
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.0187988
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x77:1x32x77x64,0.112061
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.28101
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.115967
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0751953
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.699219
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,12.9131
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,12.8682
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0881348
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0749512
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32 attr-post-ops:eltwise_swish:1,,mb77ic2048oc8192,3.24707
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc8192,2.81787
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x8192,14.2842
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x8192,0.425049
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x8192,0.298096
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic8192oc2048,2.77295
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.28003
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0888672
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0749512
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.687988
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.822021
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32::blocked:aBcd16b::f0,,,1x32x77x64,0.0717773
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:aBcd16b::f0 dst:bf16::blocked:abcd::f0,,,1x32x77x64,0.0930176
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.125977
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32:p:blocked:aBcd16b::f0,,,1x8x77x64,0.0310059
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8:p:blocked:aBcd16b::f0 dst:u8::blocked:abcd::f0,,,1x8x77x64,0.0200195
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.851074
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.0390625
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abdc::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x64:1x32x64x77,0.0839844
+onednn_verbose,v1,primitive,exec,cpu,softmax,jit:avx10_1_512,forward_inference,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,alg:softmax_accurate axis:3,1x32x77x77,0.179932
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.129883
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,,,1x8x77x64,0.0100098
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.0231934
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x77:1x32x77x64,0.111084
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.28906
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0900879
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0788574
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.686035
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,12.98
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,12.9529
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0878906
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0749512
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32 attr-post-ops:eltwise_swish:1,,mb77ic2048oc8192,3.3269
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc8192,2.82104
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x8192,14.5798
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x8192,0.581787
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x8192,0.301025
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic8192oc2048,3.10498
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.33398
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0891113
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0739746
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.673096
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.858887
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32::blocked:aBcd16b::f0,,,1x32x77x64,0.0720215
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:aBcd16b::f0 dst:bf16::blocked:abcd::f0,,,1x32x77x64,0.092041
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.163086
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32:p:blocked:aBcd16b::f0,,,1x8x77x64,0.0310059
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8:p:blocked:aBcd16b::f0 dst:u8::blocked:abcd::f0,,,1x8x77x64,0.0219727
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.848145
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.0351562
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abdc::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x64:1x32x64x77,0.079834
+onednn_verbose,v1,primitive,exec,cpu,softmax,jit:avx10_1_512,forward_inference,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,alg:softmax_accurate axis:3,1x32x77x77,0.169922
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.190918
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,,,1x8x77x64,0.00878906
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.0229492
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x77:1x32x77x64,0.11084
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.31201
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0891113
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0751953
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.674072
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,13.0679
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,13.0308
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0881348
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0749512
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32 attr-post-ops:eltwise_swish:1,,mb77ic2048oc8192,3.26685
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc8192,2.81299
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x8192,14.488
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x8192,0.4729
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x8192,0.301025
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic8192oc2048,2.80981
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.32593
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0891113
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0749512
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.669922
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.851074
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32::blocked:aBcd16b::f0,,,1x32x77x64,0.0739746
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:aBcd16b::f0 dst:bf16::blocked:abcd::f0,,,1x32x77x64,0.092041
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.121826
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32:p:blocked:aBcd16b::f0,,,1x8x77x64,0.0288086
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8:p:blocked:aBcd16b::f0 dst:u8::blocked:abcd::f0,,,1x8x77x64,0.0200195
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.859863
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.0390625
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abdc::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x64:1x32x64x77,0.0810547
+onednn_verbose,v1,primitive,exec,cpu,softmax,jit:avx10_1_512,forward_inference,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,alg:softmax_accurate axis:3,1x32x77x77,0.169922
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.133057
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,,,1x8x77x64,0.0100098
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.0209961
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x77:1x32x77x64,0.112061
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.32593
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0878906
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0751953
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.709229
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,13.1021
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,13.1821
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0939941
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0751953
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32 attr-post-ops:eltwise_swish:1,,mb77ic2048oc8192,3.14404
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc8192,2.83789
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x8192,14.6511
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x8192,0.678223
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x8192,0.295898
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic8192oc2048,2.85181
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.29077
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0898438
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.11499
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.667969
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.839111
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32::blocked:aBcd16b::f0,,,1x32x77x64,0.0830078
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:aBcd16b::f0 dst:bf16::blocked:abcd::f0,,,1x32x77x64,0.0939941
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.121094
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32:p:blocked:aBcd16b::f0,,,1x8x77x64,0.0239258
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8:p:blocked:aBcd16b::f0 dst:u8::blocked:abcd::f0,,,1x8x77x64,0.0200195
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.85498
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.0380859
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abdc::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x64:1x32x64x77,0.0898438
+onednn_verbose,v1,primitive,exec,cpu,softmax,jit:avx10_1_512,forward_inference,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,alg:softmax_accurate axis:3,1x32x77x77,0.167969
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.134033
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,,,1x8x77x64,0.00805664
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.0241699
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x77:1x32x77x64,0.111084
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.33716
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0888672
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0749512
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.705078
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,13.075
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,13.0391
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0898438
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0759277
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32 attr-post-ops:eltwise_swish:1,,mb77ic2048oc8192,3.23511
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc8192,2.82495
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x8192,14.687
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x8192,0.694824
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x8192,0.297852
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic8192oc2048,2.85205
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.34985
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0900879
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0749512
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.679932
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.832031
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32::blocked:aBcd16b::f0,,,1x32x77x64,0.072998
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:aBcd16b::f0 dst:bf16::blocked:abcd::f0,,,1x32x77x64,0.0930176
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.116943
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32:p:blocked:aBcd16b::f0,,,1x8x77x64,0.0270996
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8:p:blocked:aBcd16b::f0 dst:u8::blocked:abcd::f0,,,1x8x77x64,0.0197754
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.859863
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.0390625
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abdc::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x64:1x32x64x77,0.0810547
+onednn_verbose,v1,primitive,exec,cpu,softmax,jit:avx10_1_512,forward_inference,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,alg:softmax_accurate axis:3,1x32x77x77,0.172852
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.130859
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,,,1x8x77x64,0.00708008
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.0229492
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x77:1x32x77x64,0.111816
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.38208
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0900879
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0749512
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.667969
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,13.054
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,12.979
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0881348
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0749512
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32 attr-post-ops:eltwise_swish:1,,mb77ic2048oc8192,3.22412
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc8192,2.802
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x8192,14.6331
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x8192,0.669922
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x8192,0.306885
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic8192oc2048,2.85205
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.37402
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.0981445
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0749512
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.667969
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.824951
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32::blocked:aBcd16b::f0,,,1x32x77x64,0.0710449
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:aBcd16b::f0 dst:bf16::blocked:abcd::f0,,,1x32x77x64,0.0939941
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.124023
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:f32:p:blocked:aBcd16b::f0,,,1x8x77x64,0.0429688
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8:p:blocked:aBcd16b::f0 dst:u8::blocked:abcd::f0,,,1x8x77x64,0.0200195
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,512x2048,0.846924
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.0588379
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abdc::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x64:1x32x64x77,0.0869141
+onednn_verbose,v1,primitive,exec,cpu,softmax,jit:avx10_1_512,forward_inference,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,alg:softmax_accurate axis:3,1x32x77x77,0.166016
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc512,0.12793
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abcde::f0 dst:bf16::blocked:abcde::f0,,,1x8x4x77x64,0.0480957
+onednn_verbose,v1,primitive,exec,cpu,matmul,brg_matmul:avx10_1_512_amx,undef,src:bf16::blocked:abcd::f0 wei:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,attr-scratchpad:user,,1x32x77x77:1x32x77x64,0.111816
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x2048,3.29883
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.12085
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.072998
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc2048,0.791992
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,13.1531
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,8192x2048,13.1111
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.217773
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0751953
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32 attr-post-ops:eltwise_swish:1,,mb77ic2048oc8192,3.24097
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc8192,3.45996
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,2048x8192,14.575
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x8192,1.55493
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x8192,0.298828
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:bf16::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic8192oc2048,2.80005
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:s8::blocked:ab::f0 dst:s8::blocked:AB16b64a4b::f0,,,128256x2048,202.259
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:f32::blocked:abc::f0 dst:bf16::blocked:acb::f0,,,1x77x2048,0.192871
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:u8::blocked:acb::f0 dst:u8::blocked:abc::f0,,,1x77x2048,0.0749512
+onednn_verbose,v1,primitive,exec,cpu,inner_product,brgemm:avx10_1_512_amx,forward_inference,src:u8::blocked:ab::f0 wei:s8:a:blocked:AB16b64a4b::f0 bia:undef::undef::: dst:f32::blocked:ab::f0,attr-scratchpad:user attr-scales:wei:1:f32,,mb77ic2048oc128256,74.043
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,,,1x8x77x64,0.0129395
+onednn_verbose,v1,primitive,exec,cpu,reorder,jit:uni,undef,src:bf16::blocked:abcd::f0 dst:bf16::blocked:abcd::f0,,,1x8x77x64,0.00878906
+Run 1/1 completed in 1.4234 seconds
+CSV file saved to /home/perftest/perftool/openvino_report/amx/llama/thread1/q8/llama_q8_thread1.csv

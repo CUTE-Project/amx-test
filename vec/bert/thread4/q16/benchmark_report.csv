@@ -1,0 +1,32 @@
+Command line parameters
+-m;./model/bert-base-ner/FP16/bert-base-ner.xml
+-b;4
+-t;2
+-hint;latency
+-report_type;detailed_counters
+-report_folder;./vec/bert/thread4/q16/
+
+Configuration setup
+topology;Model1
+target device;CPU
+API;sync
+inference_only;True
+precision;UNSPECIFIED
+batch size;4
+number of iterations;None
+number of parallel infer requests;1
+duration (ms);2000
+
+Execution results
+read model time (ms);19.32
+reshape model time (ms);4.79
+compile model time (ms);633.28
+first inference time (ms);292.55
+total execution time (ms);2233.75
+total number of iterations;8
+latency (ms);278.16
+avg latency;279.03
+min latency;277.91
+max latency;282.16
+throughput;14.33
+

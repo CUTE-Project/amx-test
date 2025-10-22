@@ -1,0 +1,36 @@
+Output template: perf,%engine%,%impl%,%name%,%prb%,%Gops%,%+ctime%,%-time%,%-Gflops%,%0time%,%0Gflops%
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x256:256x256,0.0335544,0.651123,0.0151367,2216.76,0.0198218,1692.81
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x512:512x256,0.0671089,0.226807,0.0209961,3196.25,0.02808,2389.92
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x768:768x256,0.100663,0.224121,0.0280762,3585.36,0.0338968,2969.7
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x1024:1024x256,0.134218,0.281006,0.034668,3871.52,0.0379192,3539.57
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x1280:1280x256,0.167772,0.283691,0.0419922,3995.32,0.0480984,3488.1
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x1536:1536x256,0.201327,0.286133,0.0483398,4164.82,0.0524833,3836.01
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x1792:1792x256,0.234881,0.299805,0.0532227,4413.18,0.0586806,4002.71
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x2048:2048x256,0.268435,0.381836,0.0627441,4278.26,0.0709834,3781.67
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x2304:2304x256,0.30199,0.290527,0.0678711,4449.46,0.0760639,3970.22
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x2560:2560x256,0.335544,0.410645,0.0737305,4550.96,0.0818806,4097.97
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x2816:2816x256,0.369099,0.494629,0.0839844,4394.85,0.0955284,3863.76
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x3072:3072x256,0.402653,0.304688,0.0913086,4409.81,0.10023,4017.29
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x3328:3328x256,0.436208,0.293945,0.0961914,4534.79,0.106099,4111.33
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x3584:3584x256,0.469762,0.403809,0.10083,4658.95,0.113127,4152.51
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x3840:3840x256,0.503316,0.305908,0.113281,4443.07,0.127517,3947.04
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x4096:4096x256,0.536871,0.412109,0.117676,4562.29,0.128922,4164.31
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x4352:4352x256,0.570425,0.422363,0.124268,4590.3,0.134107,4253.52
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x4608:4608x256,0.60398,0.33374,0.132324,4564.39,0.147421,4096.98
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x4864:4864x256,0.637534,0.421631,0.139893,4557.31,0.150328,4240.94
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x5120:5120x256,0.671089,0.425049,0.147461,4550.96,0.157687,4255.82
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x5376:5376x256,0.704643,0.338623,0.153809,4581.3,0.163543,4308.61
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x5632:5632x256,0.738198,0.43042,0.161621,4567.46,0.174358,4233.79
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x5888:5888x256,0.771752,0.417725,0.164062,4704.01,0.179788,4292.56
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x6144:6144x256,0.805306,0.434326,0.17627,4568.61,0.188765,4266.19
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x6400:6400x256,0.838861,0.44458,0.18457,4544.94,0.200672,4180.26
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x6656:6656x256,0.872415,0.365723,0.189941,4593.08,0.204653,4262.91
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x6912:6912x256,0.90597,0.452393,0.197266,4592.64,0.209844,4317.34
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x7168:7168x256,0.939524,0.368652,0.202881,4630.92,0.216447,4340.66
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x7424:7424x256,0.973079,0.447266,0.212891,4570.79,0.225752,4310.39
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x7680:7680x256,1.00663,0.953857,0.227539,4424,0.248422,4052.1
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x7936:7936x256,1.04019,1.61084,0.240479,4325.49,0.255724,4067.62
+perf,cpu,brg_matmul:avx10_1_512_amx,,--mode=P --matmul --cold-cache=all --dt=u8:s8:s32 256x8192:8192x256,1.07374,1.66187,0.250244,4290.78,0.275482,3897.68
+tests:32 passed:32 skipped:0 mistrusted:0 unimplemented:0 invalid_arguments:0 failed:0 listed:0
+total perf: min(ms):3.95557 avg(ms):4.31233
+total: 117.17s; create_pd: 0.01s (0%); create_prim: 0.01s (0%); fill: 0.21s (0%); execute: 0.01s (0%);

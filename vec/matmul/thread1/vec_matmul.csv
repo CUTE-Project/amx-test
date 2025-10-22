@@ -1,0 +1,9 @@
+Output template: perf,%engine%,%impl%,%name%,%prb%,%Gops%,%+ctime%,%-time%,%-Gflops%,%0time%,%0Gflops%
+perf,cpu,brg_matmul:avx10_1_512,,--mode=P --matmul --dt=u8:s8:s32 256x256:256x256,0.0335544,14.4133,0.0478516,701.219,0.0487232,688.675
+perf,cpu,brg_matmul:avx10_1_512,,--mode=P --matmul --dt=u8:s8:s32 256x512:512x256,0.0671089,0.217529,0.0925293,725.272,0.0936787,716.372
+perf,cpu,brg_matmul:avx10_1_512,,--mode=P --matmul --dt=u8:s8:s32 256x768:768x256,0.100663,0.328857,0.141602,710.891,0.142939,704.237
+perf,cpu,brg_matmul:avx10_1_512,,--mode=P --matmul --dt=u8:s8:s32 256x1024:1024x256,0.134218,0.247803,0.187744,714.897,0.189216,709.334
+perf,cpu,brg_matmul:avx10_1_512,,--mode=P --matmul --dt=u8:s8:s32 256x1280:1280x256,0.167772,0.321777,0.236572,709.179,0.238662,702.969
+perf,cpu,brg_matmul:avx10_1_512,,--mode=P --matmul --dt=u8:s8:s32 256x1536:1536x256,0.201327,0.326904,0.281494,715.207,0.28423,708.322
+perf,cpu,brg_matmul:avx10_1_512,,--mode=P --matmul --dt=u8:s8:s32 256x1792:1792x256,0.234881,0.324707,0.332275,706.887,0.335842,699.379
+perf,cpu,brg_matmul:avx10_1_512,,--mode=P --matmul --dt=u8:s8:s32 256x2048:2048x256,0.268435,0.241455,0.386719,694.136,0.391034,686.475
