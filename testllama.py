@@ -36,7 +36,7 @@ def main():
     compiled_model = core.compile_model(model, "CPU", {"PERF_COUNT": "YES"})
 
     # 3. 准备 Prefill 输入
-    seq_len = 77
+    seq_len = 256
     batch_size = args.batch_size
     random_range = 100
 
@@ -52,14 +52,24 @@ def main():
         "beam_idx": beam_idx,
     }
 
-    # 4. 创建推理请求
-    infer_request = compiled_model.create_infer_request()
+    # 4. warm up
+    print("warm up")
+    for run_idx in range(1,10):
+        start_time = time.time()
+        infer_request = compiled_model.create_infer_request()
+        _ = infer_request.infer(inputs)
+        end_time = time.time()
+        print(f"Run {run_idx + 1}/{10} completed in {end_time - start_time:.4f} seconds")
+        # perf_counts = infer_request.get_profiling_info()
+        # for perf in perf_counts:
+        #     layer_times[perf.node_name].append(perf.cpu_time.microseconds)
 
     # 5. 收集性能数据
     layer_times = defaultdict(list)  # {layer_name: [time1, time2, ...]}
 
-    for run_idx in {0}:
+    for run_idx in range(1,2):
         start_time = time.time()
+        infer_request = compiled_model.create_infer_request()
         _ = infer_request.infer(inputs)
         end_time = time.time()
         print(f"Run {run_idx + 1}/{1} completed in {end_time - start_time:.4f} seconds")

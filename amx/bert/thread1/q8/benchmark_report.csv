@@ -4,7 +4,7 @@ Command line parameters
 -t;2
 -hint;latency
 -report_type;detailed_counters
--report_folder;./bert/thread1/q8/
+-report_folder;./amx/bert/thread1/q8/
 
 Configuration setup
 topology;Model1
@@ -18,14 +18,14 @@ number of parallel infer requests;1
 duration (ms);2000
 
 Execution results
-read model time (ms);62.62
-compile model time (ms);1103.41
-first inference time (ms);30.81
-total execution time (ms);2012.37
-total number of iterations;87
-latency (ms);22.97
-avg latency;23.10
-min latency;22.72
-max latency;25.71
-throughput;43.23
+read model time (ms);35.66
+compile model time (ms);1247.83
+first inference time (ms);31.96
+total execution time (ms);2014.22
+total number of iterations;86
+latency (ms);23.22
+avg latency;23.35
+min latency;22.94
+max latency;26.71
+throughput;42.70
 
